@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container {
+    margin: 0 auto;
+    max-width: 800px;
+
+}
+.section-1 {
+    display: flex;
+    margin: 50px;
+}
+ .section-2 {
+     display: flex;
+     margin: 50px;
+ }
+
+ .hero-card {
+     margin: 5px;
+     padding: 6px;
+ }
+
+ .wh {
+     width: 300px;
+     height: 300px;
+ }
