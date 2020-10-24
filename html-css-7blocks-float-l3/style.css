@@ -9,37 +9,36 @@
 	padding: 5px;
 }
 
-.block-1, 
-.block-6 {
+.orange {
 	height: 100px;
-	width: 600px;
+	width: 100%;
 	background-color: red;
 	float: left;
+	background-color: orange;
 
 }
 
-.block-3,.block-4,.block-5,.block-2 {
+.block {
 	height: 300px;
 	width: 25%;
 	float: left;
 } 
-.block-2 {
+.bg-blue {
 	background-color: blue;
 }
 
-.block-3 {
+.bg-purple {
 	background-color: purple;
 }
 
-.block-4 {
+.bg-green {
 	background-color: green;
 	float: left;
 }
-
-.block-5 {
-	background-color: orange;
+.bg-red {
+	background-color: red;
 }
 
-.block-6 {
+.orange {
 	clear: both;
 }

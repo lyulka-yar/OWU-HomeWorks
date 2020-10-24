@@ -1,18 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5b1b59b4-4fa0-4bb8-a22a-4d718e167c5c" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/html-css-blocks-float-l3.1/.idea/lesson#3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html-css-ukrpravda-flex-l5/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html-css-ukrpravda-flex-l5/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html-css-7blocks-float-l3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html-css-7blocks-float-l3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html-css-7blocks-float-l3/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/html-css-7blocks-float-l3/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jIArLvsyqIm2xRzUMAsZJxWESe" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -21,8 +53,30 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/OWU-HomeWorks/html-css-ukrpravda-flex-l5/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" uri="http://localhost:63342/OWU-HomeWorks/html-css-ukrpravda-flex-l5/index" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html (1)" />
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -32,7 +86,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603481429461</updated>
-      <workItem from="1603481431229" duration="416000" />
+      <workItem from="1603481431229" duration="3489000" />
+      <workItem from="1603530678910" duration="25000" />
+      <workItem from="1603530717220" duration="13129000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1603481748420</created>
@@ -57,9 +113,100 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
     <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1210" y="345" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603482362357">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1210" y="345" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1603482362357" />
+    <state width="936" height="362" key="GridCell.Tab.0.bottom" timestamp="1603544383685">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="936" height="362" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1603544383685" />
+    <state width="936" height="362" key="GridCell.Tab.0.center" timestamp="1603544383685">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="936" height="362" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1603544383685" />
+    <state width="936" height="362" key="GridCell.Tab.0.left" timestamp="1603544383685">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="936" height="362" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1603544383685" />
+    <state width="936" height="362" key="GridCell.Tab.0.right" timestamp="1603544383685">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="936" height="362" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1603544383685" />
+    <state width="936" height="362" key="GridCell.Tab.1.bottom" timestamp="1603544383686">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="936" height="362" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1603544383686" />
+    <state width="936" height="362" key="GridCell.Tab.1.center" timestamp="1603544383685">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="936" height="362" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1603544383685" />
+    <state width="936" height="362" key="GridCell.Tab.1.left" timestamp="1603544383685">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="936" height="362" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1603544383685" />
+    <state width="936" height="362" key="GridCell.Tab.1.right" timestamp="1603544383685">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="936" height="362" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1603544383685" />
+    <state width="936" height="362" key="GridCell.Tab.2.bottom" timestamp="1603544383686">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="936" height="362" key="GridCell.Tab.2.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1603544383686" />
+    <state width="936" height="362" key="GridCell.Tab.2.center" timestamp="1603544383686">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="936" height="362" key="GridCell.Tab.2.center/0.0.1920.1080@0.0.1920.1080" timestamp="1603544383686" />
+    <state width="936" height="362" key="GridCell.Tab.2.left" timestamp="1603544383686">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="936" height="362" key="GridCell.Tab.2.left/0.0.1920.1080@0.0.1920.1080" timestamp="1603544383686" />
+    <state width="936" height="362" key="GridCell.Tab.2.right" timestamp="1603544383686">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="936" height="362" key="GridCell.Tab.2.right/0.0.1920.1080@0.0.1920.1080" timestamp="1603544383686" />
+    <state width="936" height="362" key="GridCell.Tab.3.bottom" timestamp="1603544383687">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="936" height="362" key="GridCell.Tab.3.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1603544383687" />
+    <state width="936" height="362" key="GridCell.Tab.3.center" timestamp="1603544383686">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="936" height="362" key="GridCell.Tab.3.center/0.0.1920.1080@0.0.1920.1080" timestamp="1603544383686" />
+    <state width="936" height="362" key="GridCell.Tab.3.left" timestamp="1603544383686">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="936" height="362" key="GridCell.Tab.3.left/0.0.1920.1080@0.0.1920.1080" timestamp="1603544383686" />
+    <state width="936" height="362" key="GridCell.Tab.3.right" timestamp="1603544383686">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="936" height="362" key="GridCell.Tab.3.right/0.0.1920.1080@0.0.1920.1080" timestamp="1603544383686" />
+    <state x="1203" y="263" key="RollbackChangesDialog" timestamp="1603481942959">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1203" y="263" key="RollbackChangesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1603481942959" />
+    <state x="461" y="184" key="SettingsEditor" timestamp="1603482774596">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="461" y="184" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1603482774596" />
+    <state x="1032" y="263" key="Vcs.Push.Dialog.v2" timestamp="1603481801217">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1032" y="263" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1603481801217" />
+    <state x="1219" y="444" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1603481934216">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1219" y="444" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1603481934216" />
+    <state x="1103" y="240" width="672" height="678" key="search.everywhere.popup" timestamp="1603482322162">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1103" y="240" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1603482322162" />
   </component>
 </project>

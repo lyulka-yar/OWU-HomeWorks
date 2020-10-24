@@ -1,0 +1,39 @@
+* {
+	font-size: 0;
+}
+.wrap {
+		background-color: #333;
+	width: 600px;
+	padding: 5px;
+}
+.block-main {
+
+	display: flex;	
+}
+
+.orange {
+	height: 100px;
+	background-color: orange;	
+}
+
+.inner-block {
+	height: 300px;
+	flex-basis: 25%;
+} 
+.bg-blue {
+	background-color: blue;
+}
+
+.bg-purple {
+	background-color: purple;
+}
+
+.bg-green {
+	background-color: green;
+	
+} 
+
+.bg-red {
+	background-color:red;
+}
+
