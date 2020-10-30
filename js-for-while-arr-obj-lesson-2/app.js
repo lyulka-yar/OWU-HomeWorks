@@ -45,10 +45,11 @@
 // - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом всередині.
 // - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом і індексом всередині.
 
-// let i =0;
-// while (i<20) {
-//     i++; document.write(i+ '<h1>${some fish text}</h1>');
-//     console.log('i.length');
+// let i = 0;
+// while (i < 20) {
+//     i++
+//     document.write(i + '<h1>some fish text</h1>');
+//     console.log(i);
 // }
 
 // - Створити масив з 10 числових елементів. Вивести в консоль всі його елементи в циклі.
@@ -70,37 +71,132 @@
 // - Створити масив з 10 елементів числового, стірчкового і булевого типу. За допомогою if та
 // typeof вивести тільки булеві елементи
 
-let array1 = [1414, 'hello', false, 'fish', null, 'obj', true, 'story', 115151, false, 'woman', 1414, 'hello', false,
-    'fish', null, 'obj', true, 'story', 115151, false, 'woman', false];
-for (let i = 0; i < array1.length; i++) {
-    if (!array1 ) {
-        console.log(typeof array1[i]);
-    }
-}
+// const array = [1414, 'hello', false, 'fish', null, 'obj', true, 'story', 115151, false, 'woman',
+//     1414, 'hello', false, 'fish', null, 'obj', true, 'story', 115151, false, 'woman', false
+// ];
+//for(let i=0; i<array.length; i++) {
+//if(typeof array[i] == "boolean") {
+//         console.log(array[i]);
+//     }
+// }
 
 // - Створити масив з 10 елементів числового, стірчкового і булевого типу. За допомогою if та
 // typeof вивести тільки числові елементи
 // - Створити масив з 10 елементів числового, стрічкового і булевого типу. За допомогою if та
 // typeof вивести тільки рядкові елементи
+
+// const array = [123, 1511, 1414, 'hello', 'hotdog', 'mars', true, false, Boolean, 174115];
+// for (let i = 0; i < array.length; i++) {
+//     if (typeof array[i] == "number") {
+//         console.log(array[i]);
+//     }
+// }
+// const array = ['pi=3.14159', 1511, 1414, 'hello', 'hotdog', 'mars', 'masatakata', false, Boolean, 174115];
+// for (let i = 0; i < array.length; i++) {
+//     if (typeof array[i] == "string") {
+//         console.log(array[i]);
+//     }
+// }
+
+
+
+
+
 // - Створити порожній масив. Наповнити його 10 елементами (різними за типами) через звернення
 // до конкретних індексів. Вивести в консоль всі його елементи в циклі.
+
+// const myArraySort = [];
+
+// myArraySort[3] = 123;
+// myArraySort[13] = {};
+// myArraySort[32] = 'Hello';
+// myArraySort[5] = null;
+// myArraySort[232] = undefined;
+// myArraySort[6] = false;
+// myArraySort[16] = Symbol;
+// myArraySort[56] = BigInt;
+
+// console.log(myArraySort);
+
 // - Створити цикл for на 10  ітерацій з кроком 1. Вивести поточний номер кроку через console.log
 // та document.write
 // - Створити цикл for на 100 ітерацій з кроком 1. Вивести поточний номер кроку через console.log
 // та document.write
+
+// for (let i = 0; i <= 10; i++) {
+//     i +
+//         console.log(i);
+//     document.write(i);
+// }
+
+
+// for (let i = 0; i <= 100; i++) {
+//     i +
+//         console.log(i);
+//     document.write(i);
+// }
+
+
 // - Створити цикл for на 100 ітерацій з кроком 2. Вивести поточний номер кроку через console.log
 // та document.write
-// - Створити цикл for на 100 ітерацій. Вивести тільки парні кроки. через console.log + document.write
+
+
+// for (let i = 0; i <= 100; i += 2) {
+
+//     console.log(i);
+//     document.write(i);
+// }
+
+
 // - Створити цикл for на 100 ітерацій. Вивести тільки парні кроки. через console.log + document.write
 // - Створити цикл for на 100 ітерацій. Вивести тільки непарні кроки. через console.log + document.write
+
+// for (let i = 2; i <= 100; i++) {
+//     if (i % 2 === 0) {
+//         console.log(i);
+//         document.write(i);
+//     }
+
+// }
+// for (let i = 1; i <= 100; i++) {
+//     if (i % 2 === 1) {
+//         console.log(i);
+//         document.write(i);
+//     }
+//
+// }
+
+
 // - Відтворити роботу годинника, відрахувавши 2 хвилини (2 цикли! 1й - хвилини, 2й - секунди)
 // - Відтворити роботу годинника, відрахувавши  2 години 20 хвилини (3 цикли! 1й - години, 2й - хвилини, 3й - секунди)
+
+// for (let i = 0; i <= 2; i++) {
+//     for(let j = 0; j <= 59; j++) {
+//         console.log((i) + ':' + j);
+//         if (i == 2 && j == 0) {
+//             break;
+//         }
+//     }
+// }
+
+
+
+
+
 // Додатково
 // - Дано масив: [ 'a', 'b', 'c'] . За допомогою циклу for зібрати всі букви в слово.
 // - Дано масив: [ 'a', 'b', 'c'] . За допомогою циклу while зібрати всі букви в слово.
 // - Дано масив: [ 'a', 'b', 'c'] . За допомогою циклу for of зібрати всі букви в слово.
-// - Дано масив: [ 'a', 'b', 'c'] . За допомогою циклу for of зібрати всі букви в слово.
 //
+
+// const arrayLet = ['a','b','c'];
+//  for ()
+
+
+
+
+
+
 // =================
 // =================
 // =================
