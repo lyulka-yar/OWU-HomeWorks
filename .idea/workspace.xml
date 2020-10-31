@@ -26,20 +26,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a114065-598a-4b91-8c1d-3fcc78926718" name="Default Changelist" comment="hw-2-2">
-      <change afterPath="$PROJECT_DIR$/HTML CSS JS/js-for-while-arr-obj-lesson-2/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2a114065-598a-4b91-8c1d-3fcc78926718" name="Default Changelist" comment="error">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html-css-blocks-float-l3.1/.idea/lesson#3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HTML CSS JS/html-css-blocks-float-l3.1/.idea/lesson#3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html-css-blocks-float-l3.1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html-css-blocks-float-l3.1/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HTML CSS JS/html-css-blocks-float-l3.1/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html-css-blocks-float-l3.1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HTML CSS JS/html-css-blocks-float-l3.1/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html-css-blocks-float-l3.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HTML CSS JS/html-css-blocks-float-l3.1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js-for-while-arr-obj-lesson-2/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HTML CSS JS/js-for-while-arr-obj-lesson-2/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js-for-while-arr-obj-lesson-2/.idea/js-for-while-arr-obj-lesson-2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HTML CSS JS/js-for-while-arr-obj-lesson-2/.idea/js-for-while-arr-obj-lesson-2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js-for-while-arr-obj-lesson-2/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HTML CSS JS/js-for-while-arr-obj-lesson-2/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js-for-while-arr-obj-lesson-2/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HTML CSS JS/js-for-while-arr-obj-lesson-2/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +35,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jT5Y6HOvnWPMCT7qcL1U2A9VIV" />
@@ -95,7 +84,7 @@
       <workItem from="1603826348989" duration="528000" />
       <workItem from="1603826928968" duration="8000" />
       <workItem from="1603826945671" duration="69000" />
-      <workItem from="1604139990314" duration="1333000" />
+      <workItem from="1604139990314" duration="1694000" />
     </task>
     <task id="LOCAL-00001" summary="hw-2-2">
       <created>1604145348164</created>
@@ -104,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604145348164</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="error">
+      <created>1604145743444</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604145743444</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,7 +132,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hw-2-2" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw-2-2" />
+    <MESSAGE value="error" />
+    <option name="LAST_COMMIT_MESSAGE" value="error" />
   </component>
   <component name="WindowStateProjectService">
     <state x="975" y="247" width="467" height="439" key="#Web_Browsers" timestamp="1603819069373">
@@ -211,10 +208,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="1165" y="283" key="RollbackChangesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1604139721678" />
-    <state x="1004" y="295" key="Vcs.Push.Dialog.v2" timestamp="1604145562020">
+    <state x="1004" y="295" key="Vcs.Push.Dialog.v2" timestamp="1604145756056">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="1004" y="295" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1604145562020" />
+    <state x="1004" y="295" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1604145756056" />
     <state x="1066" y="444" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1604145413766">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
