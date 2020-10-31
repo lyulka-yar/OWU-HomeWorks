@@ -1,6 +1,13 @@
 * {
 	font-size: 0;
 }
+.container {
+	margin: 0 auto;
+	margin-top: 225px;
+	width: 900px;
+	height: 100vh;
+	
+ }
 
 .block-main {
 	background-color: #333;
