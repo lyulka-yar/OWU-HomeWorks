@@ -70,20 +70,50 @@
 // - Створити масив з 10 елементів числового, стірчкового і булевого типу. За допомогою if та
 // typeof вивести тільки булеві елементи
 
-let array1 = [1414, 'hello', false, 'fish', null, 'obj', true, 'story', 115151, false, 'woman', 1414, 'hello', false,
-    'fish', null, 'obj', true, 'story', 115151, false, 'woman', false];
-for (let i = 0; i < array1.length; i++) {
-    if (!array1 ) {
-        console.log(typeof array1[i]);
-    }
-}
+// let array1 = [1414, 'hello', false, 'fish', null, 'obj', true, 'story', 115151, false, 'woman', 1414, 'hello', false,
+//     'fish', null, 'obj', true, 'story', 115151, false, 'woman', false];
+// for (let i = 0; i < array1.length; i++) {
+//     if (typeof array1[i] === "boolean") {
+//
+//         console.log(array1[i]);
+//     }
+// }
+
 
 // - Створити масив з 10 елементів числового, стірчкового і булевого типу. За допомогою if та
 // typeof вивести тільки числові елементи
+//
+// let array1 = [1414, 'hello', false, 'fish', null, 'obj', true, 'story', 115151, false, 'woman', 1414, 'hello', false,
+//     'fish', null, 'obj', true, 'story', 115151, false, 'woman', false];
+//
+// for (let i = 0; i < array1.length; i++) {
+//     if (typeof(array1[i]) === 'number') {
+//         console.log(array1[i]);
+//     }
+//
+// }
+
 // - Створити масив з 10 елементів числового, стрічкового і булевого типу. За допомогою if та
 // typeof вивести тільки рядкові елементи
+
+// let array1 = [1414, 'hello', false, 'fish', null, 'obj', true, 'story', 115151, false, 'woman', 1414, 'hello', false,
+//     'fish', null, 'obj', true, 'story', 115151, false, 'woman', false];
+// for (let i = 0; i < array1.length; i++) {
+//     const array1Element = array1[i];
+//     if (typeof array1Element === 'string') {
+//         console.log(array1Element);
+//     }
+// }
+
+
 // - Створити порожній масив. Наповнити його 10 елементами (різними за типами) через звернення
 // до конкретних індексів. Вивести в консоль всі його елементи в циклі.
+
+let arr = [];
+
+
+
+
 // - Створити цикл for на 10  ітерацій з кроком 1. Вивести поточний номер кроку через console.log
 // та document.write
 // - Створити цикл for на 100 ітерацій з кроком 1. Вивести поточний номер кроку через console.log

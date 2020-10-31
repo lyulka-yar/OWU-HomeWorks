@@ -106,12 +106,11 @@ let a = +prompt("Введите первое значение");
 let b = +prompt("Введите второе значение");
 let c = +prompt("Введите третье значение");
 
-
-
-console.log(a, b, c);
-
-
-
-
-
+if (a < b && a < c && (b < c)) {
+	console.log(a, b, c);
+} else if (b < a && b < c) {
+	console.log(b, a, c);
+} else if (c<a&&c<b) {
+	console.log(c,b,a);
+}
 
