@@ -27,101 +27,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a114065-598a-4b91-8c1d-3fcc78926718" name="Default Changelist" comment="changed location">
-      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-7blocks-flex-l4/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-7blocks-flex-l4/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-7blocks-float-l3/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-7blocks-float-l3/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-blocks-float-l3.1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-blocks-float-l3.1/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-flex-lesson-3.2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-flex-lesson-3.2/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-food card-l1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-food card-l1/practice/Chanter.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-food card-l1/practice/Chanter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-food card-l1/practice/archer.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-food card-l1/practice/assasin.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-food card-l1/practice/char.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-food card-l1/practice/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-food card-l1/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-hero card-l2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-hero card-l2/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-ukrpravda-flex-l5/img/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-ukrpravda-flex-l5/img/12317176_310_430.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-ukrpravda-flex-l5/img/FBI.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-ukrpravda-flex-l5/img/ad.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-ukrpravda-flex-l5/img/ad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-ukrpravda-flex-l5/img/azerbajan.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-ukrpravda-flex-l5/img/builders.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-ukrpravda-flex-l5/img/check.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-ukrpravda-flex-l5/img/church.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-ukrpravda-flex-l5/img/facebook.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-ukrpravda-flex-l5/img/klichko.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-ukrpravda-flex-l5/img/knife.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-ukrpravda-flex-l5/img/main news.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-ukrpravda-flex-l5/img/poland.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-ukrpravda-flex-l5/img/president.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-ukrpravda-flex-l5/img/security.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-ukrpravda-flex-l5/img/spy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-ukrpravda-flex-l5/img/statistic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-ukrpravda-flex-l5/img/test results.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-ukrpravda-flex-l5/img/theatr.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-ukrpravda-flex-l5/img/tramp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-ukrpravda-flex-l5/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-ukrpravda-flex-l5/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML CSS JS/js cls-hw/js-basic-lesson-1/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML CSS JS/js cls-hw/js-basic-lesson-1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML CSS JS/js cls-hw/js-for-while-arr-obj-lesson-2/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML CSS JS/js cls-hw/js-for-while-arr-obj-lesson-2/hw-2-2" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/HTML CSS JS/js cls-hw/js-for-while-arr-obj-lesson-2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-7blocks-flex-l4/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-7blocks-flex-l4/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-7blocks-float-l3/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-7blocks-float-l3/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-blocks-float-l3.1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-blocks-float-l3.1/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-flex-lesson-3.2/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-flex-lesson-3.2/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-food card-l1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-food card-l1/practice/Chanter.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-food card-l1/practice/Chanter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-food card-l1/practice/archer.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-food card-l1/practice/assasin.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-food card-l1/practice/char.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-food card-l1/practice/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-food card-l1/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-hero card-l2/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-hero card-l2/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-ukrpravda-flex-l5/img/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-ukrpravda-flex-l5/img/12317176_310_430.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-ukrpravda-flex-l5/img/FBI.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-ukrpravda-flex-l5/img/ad.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-ukrpravda-flex-l5/img/ad.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-ukrpravda-flex-l5/img/azerbajan.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-ukrpravda-flex-l5/img/builders.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-ukrpravda-flex-l5/img/check.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-ukrpravda-flex-l5/img/church.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-ukrpravda-flex-l5/img/facebook.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-ukrpravda-flex-l5/img/klichko.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-ukrpravda-flex-l5/img/knife.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-ukrpravda-flex-l5/img/main news.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-ukrpravda-flex-l5/img/poland.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-ukrpravda-flex-l5/img/president.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-ukrpravda-flex-l5/img/security.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-ukrpravda-flex-l5/img/spy.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-ukrpravda-flex-l5/img/statistic.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-ukrpravda-flex-l5/img/test results.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-ukrpravda-flex-l5/img/theatr.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-ukrpravda-flex-l5/img/tramp.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-ukrpravda-flex-l5/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-ukrpravda-flex-l5/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/js-basic-lesson-1/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/js-basic-lesson-1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/js-for-while-arr-obj-lesson-2/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/js-for-while-arr-obj-lesson-2/hw-2-2/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/js-for-while-arr-obj-lesson-2/hw-2-2/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/js-for-while-arr-obj-lesson-2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML CSS JS/js cls-hw/js-for-while-arr-obj-lesson-2/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/HTML CSS JS/js cls-hw/js-for-while-arr-obj-lesson-2/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +49,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1jT5Y6HOvnWPMCT7qcL1U2A9VIV" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -148,7 +59,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/HTML CSS JS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -156,6 +67,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -186,7 +98,13 @@
       <workItem from="1603826928968" duration="8000" />
       <workItem from="1603826945671" duration="69000" />
       <workItem from="1604139990314" duration="2208000" />
-      <workItem from="1604147576558" duration="1375000" />
+      <workItem from="1604147576558" duration="2021000" />
+      <workItem from="1604166830690" duration="1000" />
+      <workItem from="1604166976522" duration="10000" />
+      <workItem from="1604167016443" duration="185000" />
+      <workItem from="1604167480204" duration="425000" />
+      <workItem from="1604168241794" duration="462000" />
+      <workItem from="1604168712543" duration="107000" />
     </task>
     <task id="LOCAL-00001" summary="hw-2-2">
       <created>1604145348164</created>
@@ -209,7 +127,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604146101721</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="changed location">
+      <created>1604148993144</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604148993144</updated>
+    </task>
+    <task id="LOCAL-00005" summary="little changes in structure">
+      <created>1604168399893</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604168399893</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,10 +172,18 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/HTML CSS JS/js cls-hw/js-for-while-arr-obj-lesson-2/hw-2-2" />
+      <path value="$PROJECT_DIR$/HTML CSS JS/js-for-while-arr-obj-lesson-2/hw-2-2" />
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/HTML CSS JS" />
+    </ignored-roots>
     <MESSAGE value="hw-2-2" />
     <MESSAGE value="error" />
     <MESSAGE value="changed location" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed location" />
+    <MESSAGE value="updating code" />
+    <MESSAGE value="little changes in structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="little changes in structure" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="218" key="#Inspections" timestamp="1604148091815">
@@ -254,53 +194,69 @@
       <screen x="0" y="27" width="1600" height="873" />
     </state>
     <state x="975" y="247" width="467" height="439" key="#Web_Browsers/0.27.1600.873@0.27.1600.873" timestamp="1603819069373" />
-    <state width="777" height="268" key="GridCell.Tab.0.bottom" timestamp="1603826307482">
-      <screen x="0" y="27" width="1600" height="873" />
+    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1604168800885">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1604168800885" />
+    <state width="1897" height="364" key="GridCell.Tab.0.bottom" timestamp="1604168706552">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1897" height="364" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1604168706552" />
     <state width="777" height="268" key="GridCell.Tab.0.bottom/0.27.1600.873@0.27.1600.873" timestamp="1603826307482" />
-    <state width="777" height="268" key="GridCell.Tab.0.center" timestamp="1603826307482">
-      <screen x="0" y="27" width="1600" height="873" />
+    <state width="1897" height="364" key="GridCell.Tab.0.center" timestamp="1604168706551">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1897" height="364" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1604168706551" />
     <state width="777" height="268" key="GridCell.Tab.0.center/0.27.1600.873@0.27.1600.873" timestamp="1603826307482" />
-    <state width="777" height="268" key="GridCell.Tab.0.left" timestamp="1603826307482">
-      <screen x="0" y="27" width="1600" height="873" />
+    <state width="1897" height="364" key="GridCell.Tab.0.left" timestamp="1604168706551">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1897" height="364" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1604168706551" />
     <state width="777" height="268" key="GridCell.Tab.0.left/0.27.1600.873@0.27.1600.873" timestamp="1603826307482" />
-    <state width="777" height="268" key="GridCell.Tab.0.right" timestamp="1603826307482">
-      <screen x="0" y="27" width="1600" height="873" />
+    <state width="1897" height="364" key="GridCell.Tab.0.right" timestamp="1604168706551">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1897" height="364" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1604168706551" />
     <state width="777" height="268" key="GridCell.Tab.0.right/0.27.1600.873@0.27.1600.873" timestamp="1603826307482" />
-    <state width="777" height="268" key="GridCell.Tab.1.bottom" timestamp="1603826307483">
-      <screen x="0" y="27" width="1600" height="873" />
+    <state width="1897" height="364" key="GridCell.Tab.1.bottom" timestamp="1604168706552">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1897" height="364" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1604168706552" />
     <state width="777" height="268" key="GridCell.Tab.1.bottom/0.27.1600.873@0.27.1600.873" timestamp="1603826307483" />
-    <state width="777" height="268" key="GridCell.Tab.1.center" timestamp="1603826307483">
-      <screen x="0" y="27" width="1600" height="873" />
+    <state width="1897" height="364" key="GridCell.Tab.1.center" timestamp="1604168706552">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1897" height="364" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1604168706552" />
     <state width="777" height="268" key="GridCell.Tab.1.center/0.27.1600.873@0.27.1600.873" timestamp="1603826307483" />
-    <state width="777" height="268" key="GridCell.Tab.1.left" timestamp="1603826307483">
-      <screen x="0" y="27" width="1600" height="873" />
+    <state width="1897" height="364" key="GridCell.Tab.1.left" timestamp="1604168706552">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1897" height="364" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1604168706552" />
     <state width="777" height="268" key="GridCell.Tab.1.left/0.27.1600.873@0.27.1600.873" timestamp="1603826307483" />
-    <state width="777" height="268" key="GridCell.Tab.1.right" timestamp="1603826307483">
-      <screen x="0" y="27" width="1600" height="873" />
+    <state width="1897" height="364" key="GridCell.Tab.1.right" timestamp="1604168706552">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1897" height="364" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1604168706552" />
     <state width="777" height="268" key="GridCell.Tab.1.right/0.27.1600.873@0.27.1600.873" timestamp="1603826307483" />
-    <state width="777" height="268" key="GridCell.Tab.2.bottom" timestamp="1603826307484">
-      <screen x="0" y="27" width="1600" height="873" />
+    <state width="1897" height="364" key="GridCell.Tab.2.bottom" timestamp="1604168706553">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1897" height="364" key="GridCell.Tab.2.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1604168706553" />
     <state width="777" height="268" key="GridCell.Tab.2.bottom/0.27.1600.873@0.27.1600.873" timestamp="1603826307484" />
-    <state width="777" height="268" key="GridCell.Tab.2.center" timestamp="1603826307484">
-      <screen x="0" y="27" width="1600" height="873" />
+    <state width="1897" height="364" key="GridCell.Tab.2.center" timestamp="1604168706552">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1897" height="364" key="GridCell.Tab.2.center/0.0.1920.1080@0.0.1920.1080" timestamp="1604168706552" />
     <state width="777" height="268" key="GridCell.Tab.2.center/0.27.1600.873@0.27.1600.873" timestamp="1603826307484" />
-    <state width="777" height="268" key="GridCell.Tab.2.left" timestamp="1603826307484">
-      <screen x="0" y="27" width="1600" height="873" />
+    <state width="1897" height="364" key="GridCell.Tab.2.left" timestamp="1604168706552">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1897" height="364" key="GridCell.Tab.2.left/0.0.1920.1080@0.0.1920.1080" timestamp="1604168706552" />
     <state width="777" height="268" key="GridCell.Tab.2.left/0.27.1600.873@0.27.1600.873" timestamp="1603826307484" />
-    <state width="777" height="268" key="GridCell.Tab.2.right" timestamp="1603826307484">
-      <screen x="0" y="27" width="1600" height="873" />
+    <state width="1897" height="364" key="GridCell.Tab.2.right" timestamp="1604168706553">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1897" height="364" key="GridCell.Tab.2.right/0.0.1920.1080@0.0.1920.1080" timestamp="1604168706553" />
     <state width="777" height="268" key="GridCell.Tab.2.right/0.27.1600.873@0.27.1600.873" timestamp="1603826307484" />
     <state width="777" height="268" key="GridCell.Tab.3.bottom" timestamp="1603826307488">
       <screen x="0" y="27" width="1600" height="873" />
@@ -322,13 +278,28 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="1165" y="283" key="RollbackChangesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1604139721678" />
+    <state x="461" y="184" key="SettingsEditor" timestamp="1604168819630">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="461" y="184" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1604168819630" />
     <state x="1004" y="295" key="Vcs.Push.Dialog.v2" timestamp="1604147705566">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="1004" y="295" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1604147705566" />
+    <state x="512" y="268" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1604168637017">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="512" y="268" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1080@0.0.1920.1080" timestamp="1604168637017" />
     <state x="1066" y="444" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1604145413766">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="1066" y="444" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1604145413766" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="javascript-exception" />
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
