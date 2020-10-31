@@ -26,8 +26,102 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a114065-598a-4b91-8c1d-3fcc78926718" name="Default Changelist" comment="error">
+    <list default="true" id="2a114065-598a-4b91-8c1d-3fcc78926718" name="Default Changelist" comment="changed location">
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-7blocks-flex-l4/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-7blocks-flex-l4/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-7blocks-float-l3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-7blocks-float-l3/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-blocks-float-l3.1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-blocks-float-l3.1/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-flex-lesson-3.2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-flex-lesson-3.2/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-food card-l1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-food card-l1/practice/Chanter.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-food card-l1/practice/Chanter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-food card-l1/practice/archer.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-food card-l1/practice/assasin.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-food card-l1/practice/char.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-food card-l1/practice/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-food card-l1/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-hero card-l2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-hero card-l2/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-ukrpravda-flex-l5/img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-ukrpravda-flex-l5/img/12317176_310_430.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-ukrpravda-flex-l5/img/FBI.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-ukrpravda-flex-l5/img/ad.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-ukrpravda-flex-l5/img/ad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-ukrpravda-flex-l5/img/azerbajan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-ukrpravda-flex-l5/img/builders.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-ukrpravda-flex-l5/img/check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-ukrpravda-flex-l5/img/church.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-ukrpravda-flex-l5/img/facebook.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-ukrpravda-flex-l5/img/klichko.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-ukrpravda-flex-l5/img/knife.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-ukrpravda-flex-l5/img/main news.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-ukrpravda-flex-l5/img/poland.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-ukrpravda-flex-l5/img/president.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-ukrpravda-flex-l5/img/security.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-ukrpravda-flex-l5/img/spy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-ukrpravda-flex-l5/img/statistic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-ukrpravda-flex-l5/img/test results.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-ukrpravda-flex-l5/img/theatr.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-ukrpravda-flex-l5/img/tramp.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-ukrpravda-flex-l5/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS/html css cls-hw/html-css-ukrpravda-flex-l5/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS/js cls-hw/js-basic-lesson-1/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS/js cls-hw/js-basic-lesson-1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS/js cls-hw/js-for-while-arr-obj-lesson-2/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS/js cls-hw/js-for-while-arr-obj-lesson-2/hw-2-2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS/js cls-hw/js-for-while-arr-obj-lesson-2/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-7blocks-flex-l4/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-7blocks-flex-l4/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-7blocks-float-l3/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-7blocks-float-l3/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-blocks-float-l3.1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-blocks-float-l3.1/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-flex-lesson-3.2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-flex-lesson-3.2/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-food card-l1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-food card-l1/practice/Chanter.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-food card-l1/practice/Chanter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-food card-l1/practice/archer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-food card-l1/practice/assasin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-food card-l1/practice/char.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-food card-l1/practice/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-food card-l1/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-hero card-l2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-hero card-l2/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-ukrpravda-flex-l5/img/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-ukrpravda-flex-l5/img/12317176_310_430.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-ukrpravda-flex-l5/img/FBI.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-ukrpravda-flex-l5/img/ad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-ukrpravda-flex-l5/img/ad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-ukrpravda-flex-l5/img/azerbajan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-ukrpravda-flex-l5/img/builders.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-ukrpravda-flex-l5/img/check.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-ukrpravda-flex-l5/img/church.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-ukrpravda-flex-l5/img/facebook.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-ukrpravda-flex-l5/img/klichko.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-ukrpravda-flex-l5/img/knife.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-ukrpravda-flex-l5/img/main news.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-ukrpravda-flex-l5/img/poland.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-ukrpravda-flex-l5/img/president.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-ukrpravda-flex-l5/img/security.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-ukrpravda-flex-l5/img/spy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-ukrpravda-flex-l5/img/statistic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-ukrpravda-flex-l5/img/test results.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-ukrpravda-flex-l5/img/theatr.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-ukrpravda-flex-l5/img/tramp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-ukrpravda-flex-l5/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML CSS JS/html-css-ukrpravda-flex-l5/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML CSS JS/js-basic-lesson-1/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML CSS JS/js-basic-lesson-1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML CSS JS/js-for-while-arr-obj-lesson-2/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML CSS JS/js-for-while-arr-obj-lesson-2/hw-2-2/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML CSS JS/js-for-while-arr-obj-lesson-2/hw-2-2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML CSS JS/js-for-while-arr-obj-lesson-2/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +131,13 @@
   <component name="Git.Settings">
     <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/lyulka-yar/OWU-HomeWorks" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1jT5Y6HOvnWPMCT7qcL1U2A9VIV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -84,7 +185,8 @@
       <workItem from="1603826348989" duration="528000" />
       <workItem from="1603826928968" duration="8000" />
       <workItem from="1603826945671" duration="69000" />
-      <workItem from="1604139990314" duration="1694000" />
+      <workItem from="1604139990314" duration="2208000" />
+      <workItem from="1604147576558" duration="1375000" />
     </task>
     <task id="LOCAL-00001" summary="hw-2-2">
       <created>1604145348164</created>
@@ -100,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604145743444</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="error">
+      <created>1604146101721</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604146101721</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,9 +242,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hw-2-2" />
     <MESSAGE value="error" />
-    <option name="LAST_COMMIT_MESSAGE" value="error" />
+    <MESSAGE value="changed location" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed location" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="586" y="218" key="#Inspections" timestamp="1604148091815">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="586" y="218" key="#Inspections/0.0.1920.1080@0.0.1920.1080" timestamp="1604148091815" />
     <state x="975" y="247" width="467" height="439" key="#Web_Browsers" timestamp="1603819069373">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
@@ -208,10 +322,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="1165" y="283" key="RollbackChangesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1604139721678" />
-    <state x="1004" y="295" key="Vcs.Push.Dialog.v2" timestamp="1604145756056">
+    <state x="1004" y="295" key="Vcs.Push.Dialog.v2" timestamp="1604147705566">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="1004" y="295" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1604145756056" />
+    <state x="1004" y="295" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1604147705566" />
     <state x="1066" y="444" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1604145413766">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
