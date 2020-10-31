@@ -16,13 +16,30 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a114065-598a-4b91-8c1d-3fcc78926718" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js-basic-lesson-1/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js-basic-lesson-1/index.html" afterDir="false" />
+    <list default="true" id="2a114065-598a-4b91-8c1d-3fcc78926718" name="Default Changelist" comment="hw-2-2">
+      <change afterPath="$PROJECT_DIR$/HTML CSS JS/js-for-while-arr-obj-lesson-2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html-css-blocks-float-l3.1/.idea/lesson#3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HTML CSS JS/html-css-blocks-float-l3.1/.idea/lesson#3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html-css-blocks-float-l3.1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html-css-blocks-float-l3.1/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HTML CSS JS/html-css-blocks-float-l3.1/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html-css-blocks-float-l3.1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HTML CSS JS/html-css-blocks-float-l3.1/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html-css-blocks-float-l3.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HTML CSS JS/html-css-blocks-float-l3.1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js-for-while-arr-obj-lesson-2/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HTML CSS JS/js-for-while-arr-obj-lesson-2/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js-for-while-arr-obj-lesson-2/.idea/js-for-while-arr-obj-lesson-2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HTML CSS JS/js-for-while-arr-obj-lesson-2/.idea/js-for-while-arr-obj-lesson-2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js-for-while-arr-obj-lesson-2/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HTML CSS JS/js-for-while-arr-obj-lesson-2/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js-for-while-arr-obj-lesson-2/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HTML CSS JS/js-for-while-arr-obj-lesson-2/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +50,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jT5Y6HOvnWPMCT7qcL1U2A9VIV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -41,6 +59,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -71,7 +95,16 @@
       <workItem from="1603826348989" duration="528000" />
       <workItem from="1603826928968" duration="8000" />
       <workItem from="1603826945671" duration="69000" />
+      <workItem from="1604139990314" duration="1333000" />
     </task>
+    <task id="LOCAL-00001" summary="hw-2-2">
+      <created>1604145348164</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604145348164</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,12 +115,28 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="hw-2-2" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw-2-2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="975" y="247" width="467" height="439" key="#Web_Browsers" timestamp="1603819069373">
@@ -158,5 +207,17 @@
       <screen x="0" y="27" width="1600" height="873" />
     </state>
     <state width="777" height="268" key="GridCell.Tab.3.right/0.27.1600.873@0.27.1600.873" timestamp="1603826307488" />
+    <state x="1165" y="283" key="RollbackChangesDialog" timestamp="1604139721678">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1165" y="283" key="RollbackChangesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1604139721678" />
+    <state x="1004" y="295" key="Vcs.Push.Dialog.v2" timestamp="1604145562020">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1004" y="295" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1604145562020" />
+    <state x="1066" y="444" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1604145413766">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1066" y="444" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1604145413766" />
   </component>
 </project>
