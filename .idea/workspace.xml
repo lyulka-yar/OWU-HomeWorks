@@ -26,10 +26,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a114065-598a-4b91-8c1d-3fcc78926718" name="Default Changelist" comment="changed location">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/js cls-hw/js-for-while-arr-obj-lesson-2/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/HTML CSS JS/js cls-hw/js-for-while-arr-obj-lesson-2/app.js" afterDir="false" />
-    </list>
+    <list default="true" id="2a114065-598a-4b91-8c1d-3fcc78926718" name="Default Changelist" comment="changed location" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +34,7 @@
   </component>
   <component name="Git.Settings">
     <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/HTML CSS JS/js cls-hw/js-for-while-arr-obj-lesson-2" />
   </component>
   <component name="GithubPullRequestsUISettings">
     <option name="hiddenUrls">
@@ -116,6 +113,7 @@
       <workItem from="1604169242398" duration="109000" />
       <workItem from="1604169367814" duration="13132000" />
       <workItem from="1604228205912" duration="2000" />
+      <workItem from="1604272779203" duration="21000" />
     </task>
     <task id="LOCAL-00001" summary="hw-2-2">
       <created>1604145348164</created>
@@ -308,10 +306,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="1165" y="283" key="RollbackChangesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1604139721678" />
-    <state x="461" y="184" key="SettingsEditor" timestamp="1604168819630">
+    <state x="461" y="184" key="SettingsEditor" timestamp="1604272799587">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="461" y="184" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1604168819630" />
+    <state x="461" y="184" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1604272799587" />
     <state x="1004" y="295" key="Vcs.Push.Dialog.v2" timestamp="1604168851081">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
