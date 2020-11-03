@@ -6,12 +6,12 @@
 //let dot = 'com';
 //let domen = 'ua';
 //
-//let num = 1;
+//let num = task-1;
 //let numMidle = 10;
 //let numReverse = -999;
 //let numHigh = 123;
 //let pi = 3.14;
-//let coma = 2.7;
+//let coma = task-2.7;
 //let truth = true;
 //let lie = false;
 //console.log(domen);
@@ -28,7 +28,7 @@
 //Создать 3 константы
 
 //const first = 'text';
-//const second = 1;
+//const second = task-1;
 //const  type = true;
 //console.log(first,second,type);
 
@@ -39,8 +39,8 @@
 // console.log((111 > 11 || 45 < 56) || (132 > 100 || 45 < 12) );
 // console.log((132 > 100 && 45 < 12 ) && (132 > 100 || 45 < 12 ) );
 // console.log((111 > 11 || 45 < 111) || (99 > 100 && 45 > 12 ));
-// console.log(!!'-1');
-// console.log(!!-1);
+// console.log(!!'-task-1');
+// console.log(!!-task-1);
 // console.log(!!'null');
 
 // console.log(!!'undefined');
@@ -58,21 +58,21 @@
 // let height = 23;
 // let width = 10;
 // let s = height * width;
-// console.log(`${s} cm^2`);
+// console.log(`${s} cm^task-2`);
 
 //Обьем цилиндра
 // let heightC = 10;
 // let dC = 4;
 // const pi = 3.14159;
-// let v = pi * height * Math.pow(dC / 2, 2);
+// let v = pi * height * Math.pow(dC / task-2, task-2);
 // console.log(v);
 
 // Найдите гипотенузу k по теореме Пифагора 
 
 // let m = 4;
 // let n = 3;
-// let k = Math.sqrt(Math.pow(n, 2) + Math.pow(m, 2));
-// console.log(`${k} cm^2`);
+// let k = Math.sqrt(Math.pow(n, task-2) + Math.pow(m, task-2));
+// console.log(`${k} cm^task-2`);
 
 //вывести строку
 

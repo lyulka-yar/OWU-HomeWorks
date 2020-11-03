@@ -137,46 +137,70 @@
 // }
 // console.log(fcRules);
 // for (let i = 0; i < fcRules.length; i++) {
-//     fcRules[i].style.color='red';
-//
-// }
+//     fcRules[i].style.color='red';}
 
 
 
 ////////////////////////////////////////////////////////////////////////////
 
 
-const headerMain = document.getElementById('main_header');
-const ulElem = document.getElementsByTagName('ul');
-const lList = document.getElementsByClassName('linkList');
-const listElem = document.getElementsByClassName('listElement22');
-const linkElem3 = document.getElementsByClassName('link3');
-const subHeader = document.getElementsByClassName('sub-header');
-const contentElem = document.getElementsByClassName('content_2');
-const txtElem = document.getElementsByClassName('text2');
-const liElem = document.getElementsByTagName('li');
-const pElem = document.getElementsByTagName('p');
-let aElem = document.getElementsByTagName('a');
+// const headerMain = document.getElementById('main_header');
+// const ulElem = document.getElementsByTagName('ul');
+// const lList = document.getElementsByClassName('linkList');
+// const listElem = document.getElementsByClassName('listElement22');
+// const subHeader = document.getElementsByClassName('sub-header');
+// const contentElem = document.getElementsByClassName('content_1');
+// const txtElem = document.getElementsByClassName('text2');
+// const liElem = document.getElementsByTagName('li');
+// const pElem = document.getElementsByTagName('p');
+// let aElem = document.getElementsByTagName('a');
 
 
-headerMain.style.color='green';
-
-console.log(ulElem);
-// ulElem.style.display='block';
-// ulElem.style.width='50%';
-
-
-console.log(listElem);
-// liElem.style.backgroundColor='grey';
-for (let i = 0; i <liElem.length; i++) {
-    liElem[i].style.backgroundColor='grey';
-}
-for (let i = 0; i < aElem.length; i++) {
-    aElem.appendChild().add.classList=('anchor');
-}
-
-
-
-
-
-
+// headerMain.style.color='green';
+//
+// for (const ulItem of ulElem )
+// {
+//     ulItem.style.border="1px solid red";
+//     ulItem.style.width="400px";
+//     console.log(ulItem);
+// }
+//
+// for (const linkItem of lList) {
+//     linkItem.style.border='50%';
+// }
+// console.log(listElem);
+//
+// for (const liItem of liElem) {
+//     liItem.style.backgroundColor="grey";
+// }
+// for (const aItem of aElem) {
+//     aItem.classList.add('anchor');
+// }
+//
+// for (const aItemAll of aElem) {
+//     if (aItemAll.innerText === 'link3') {
+//         aItemAll.style.fontSize='40px';
+//     };
+// }
+//
+// for (const aElemItem of aElem) {
+//     aElemItem.classList.add('element_XXX');
+//     aElemItem.innerText='XXX';
+// }
+//
+//
+// for (const subHeaderElement of subHeader) {
+//     if (subHeaderElement.style.backgroundColor=prompt("type a color")) {
+//     }
+// }
+// for (const contentItem of contentElem) {
+//     contentItem.innerText=prompt("type a text");
+// };
+//
+// for (const pItem of pElem) {
+//   pItem.style.padding='5px'
+// }
+//
+// for (const txtElemElement of txtElem) {
+//     txtElemElement.style.fontSize="28px";
+// }

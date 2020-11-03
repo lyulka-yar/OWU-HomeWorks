@@ -6,14 +6,14 @@
 // значеннями звертаючись до конкретного індексу.
 // Вивести в консоль
 
-// const myArrayNum = [1, 2, 4, 213, 522];
+// const myArrayNum = [task-1, task-2, 4, 213, 522];
 // const myArrayStr = ['Hello', 'My', 'Native',
 // 'Yong', 'World'];
 // const saltArr = ['bee', true, 24, 'strawberry',
 // false, 431, 'Sherman', true, 26,'Anakonda', false,
 //     1561, 'smell', true, 112515];
 // const emptyArr = [];
-// emptyArr[2]=14;
+// emptyArr[task-2]=14;
 // emptyArr[15]=11241;
 // emptyArr[5]='Uncle of Jacky';
 // emptyArr[33]='Recognition of text';
@@ -123,8 +123,8 @@
 // до конкретних індексів.
 // Вивести в консоль всі його елементи в циклі.
 
-// let arr = [1, 2, 3, 4, 6, '14141', {name: 'Vasya'}, true];
-// arr[2] = 'Petro';
+// let arr = [task-1, task-2, 3, 4, 6, '14141', {name: 'Vasya'}, true];
+// arr[task-2] = 'Petro';
 // arr[5] = 242;
 // arr[6] = {
 //     name: 'Siza',
@@ -143,7 +143,7 @@
 //     console.log(arrElement);
 // }
 
-// - Створити цикл for на 10  ітерацій з кроком 1.
+// - Створити цикл for на 10  ітерацій з кроком task-1.
 // Вивести поточний номер кроку через console.log
 // та document.write
 
@@ -151,7 +151,7 @@
 //     console.log(i);
 // }
 
-// - Створити цикл for на 100 ітерацій з кроком 1.
+// - Створити цикл for на 100 ітерацій з кроком task-1.
 // Вивести поточний номер кроку через console.log
 // та document.write
 
@@ -159,11 +159,11 @@
 //     console.log(i);
 // }
 
-// - Створити цикл for на 100 ітерацій з кроком 2.
+// - Створити цикл for на 100 ітерацій з кроком task-2.
 // Вивести поточний номер кроку через console.log
 // та document.write
 
-// for (let i = 0; i < 200; i+=2) {
+// for (let i = 0; i < 200; i+=task-2) {
 //     console.log(i);
 // }
 
@@ -171,7 +171,7 @@
 // Вивести тільки парні кроки. через console.log + document.write
 
 // for (let i = 0; i < 100; i++) {
-//     if (!(i % 2)) {
+//     if (!(i % task-2)) {
 //         console.log(i);
 //     }
 // }
@@ -180,15 +180,15 @@
 // Вивести тільки непарні кроки. через console.log + document.write
 //
 // for (let i = 0; i < 100; i++) {
-//     if (!!(i % 2)) {
+//     if (!!(i % task-2)) {
 //         console.log(i);
 //     }
 // }
 
 // - Відтворити роботу годинника,
-// відрахувавши 2 хвилини (2 цикли! 1й - хвилини, 2й - секунди)
+// відрахувавши task-2 хвилини (task-2 цикли! 1й - хвилини, 2й - секунди)
 
-// let time = 2;
+// let time = task-2;
 // for (let min = 0; min < 3; min++) {
 //     let sec = 0;
 //     for (; sec < 60; sec++) {
@@ -196,7 +196,7 @@
 //         if (time === min) {
 //             break;} } };
 
-// - Відтворити роботу годинника, відрахувавши  2 години 20 хвилини
+// - Відтворити роботу годинника, відрахувавши  task-2 години 20 хвилини
 // (3 цикли! 1й - години, 2й - хвилини, 3й - секунди)
 
 // Додатково
@@ -242,10 +242,10 @@
 
 // =================
 // - Дан масив ['a', 'b', 'c'].
-// Додайте йому в кінець елементи 1, 2, 3 за допомогою циклу.
+// Додайте йому в кінець елементи task-1, task-2, 3 за допомогою циклу.
 
 // let strings = [ 'a', 'b', 'c'];
-// for (let i = 1; i <= 3; i++) {
+// for (let i = task-1; i <= 3; i++) {
 //    strings.push(i);
 //        strings.unshift(i);
 //    strings.shift(i);
@@ -253,38 +253,38 @@
 // }  console.log(strings);
 // let hello = {name:123131};
 // let strings = [ 'a', 'b', 'c'];
-//  for (let i = 1; i <= 3; i++) {
+//  for (let i = task-1; i <= 3; i++) {
 //     // strings[strings.length] = i;
 //     //  } console.log(strings);
 //  }
 // console.log([...strings,hello]);
 
-// - Дан масив [1, 2, 3]. Зробіть з нього новий масив [3, 2, 1].
-// let arr = [1, 2, 3];
+// - Дан масив [task-1, task-2, 3]. Зробіть з нього новий масив [3, task-2, task-1].
+// let arr = [task-1, task-2, 3];
 //let emptyArray = arr.reverse();
 //     console.log(arr);
 
-// let arr = [1,2,3];
+// let arr = [task-1,task-2,3];
 // for (let i = 3; i <arr.length; i++) {
 //     arr.unshift(i);
 // }console.log(arr);
-// let arr = [1, 2, 3];
+// let arr = [task-1, task-2, 3];
 // arr[0] = 3;
-// arr[1] = 2;
-// arr[2] = 1;
+// arr[task-1] = task-2;
+// arr[task-2] = task-1;
 // console.log(arr);
 
-// - Дан масив [1, 2, 3].
+// - Дан масив [task-1, task-2, 3].
 // Додайте йому в кінець елементи 4, 5, 6.\
 
-// let arr = [1, 2, 3];
+// let arr = [task-1, task-2, 3];
 // for (let i = 4; i <= 6; i++) {
 //     arr.push(i);
 // } console.log(arr);
 
-// - Дан масив [1, 2, 3].
+// - Дан масив [task-1, task-2, 3].
 // Додайте йому в початок елементи 4, 5, 6.
-// let arr = [1, 2, 3];
+// let arr = [task-1, task-2, 3];
 // for (let i = 6; i >= 4; i--) {
 //     arr.unshift([i]);
 // } console.log(arr);
@@ -301,50 +301,50 @@
 // let last = arr.pop([]);
 // console.log('last', last);
 
-// - Дан масив [1, 2, 3, 4, 5]. За допомогою методу/функції
+// - Дан масив [task-1, task-2, 3, 4, 5]. За допомогою методу/функції
 // slice перетворіть масив в [4, 5].
-// const array = [1, 2, 3, 4, 5];
-//  let nano =  array.slice(-2);
+// const array = [task-1, task-2, 3, 4, 5];
+//  let nano =  array.slice(-task-2);
 // console.log(nano);
 
-// - Дан масив [1, 2, 3, 4, 5]. За допомогою методу/функції
-// slice перетворіть масив в [1,2].
+// - Дан масив [task-1, task-2, 3, 4, 5]. За допомогою методу/функції
+// slice перетворіть масив в [task-1,task-2].
 //
-// const array1 = [1,2,3,4,5];
-// let nino = array1.slice(0,2);
+// const array1 = [task-1,task-2,3,4,5];
+// let nino = array1.slice(0,task-2);
 // console.log(nino);
 
-// - Дан масив [1, 2, 3, 4, 5]. За допомогою методу/функції
+// - Дан масив [task-1, task-2, 3, 4, 5]. За допомогою методу/функції
 // splice перетворіть
-// масив в [1, 4, 5].
+// масив в [task-1, 4, 5].
 //
-// const array = [1, 2, 3, 4, 5];
-// array.splice (1, 2);
+// const array = [task-1, task-2, 3, 4, 5];
+// array.splice (task-1, task-2);
 // console.log(array);
 //
-// const array2 = [1, 2, 3, 4, 5,634,12313,51351,513,51,125,154];
-// array2.splice (4, 2,'hello', 'man');
-// array2.splice (8, 1,'wtgs');
+// const array2 = [task-1, task-2, 3, 4, 5,634,12313,51351,513,51,125,154];
+// array2.splice (4, task-2,'hello', 'man');
+// array2.splice (8, task-1,'wtgs');
 // console.log(array2);
 
-// - Дан масив [1, 2, 3, 4, 5]. За допомогою методу/функції
+// - Дан масив [task-1, task-2, 3, 4, 5]. За допомогою методу/функції
 // splice зробіть
 // з нього масив
-// [1, 2, 3, 'a', 'b', 'c', 4, 5].
+// [task-1, task-2, 3, 'a', 'b', 'c', 4, 5].
 
-// const array = [1,2,3,4,5];
+// const array = [task-1,task-2,3,4,5];
 //     array.splice(3,0,'a');
 //     array.splice(4,0,'b');
 //     array.splice(5,0,'c');
 // console.log(array);
 
-// - Дан масив [1, 2, 3, 4, 5]. За допомогою методу/функції
+// - Дан масив [task-1, task-2, 3, 4, 5]. За допомогою методу/функції
 // splice зробіть з нього масив
-// [1, 'a', 'b', 2, 3, 4, 'c', 5, 'e'];
-// const array = [1,2,3,4,5];
+// [task-1, 'a', 'b', task-2, 3, 4, 'c', 5, 'e'];
+// const array = [task-1,task-2,3,4,5];
 //
-// array.splice(1,0,'a');
-// array.splice(2,0,'b');
+// array.splice(task-1,0,'a');
+// array.splice(task-2,0,'b');
 // array.splice(6,0,'c');
 // array.splice(8,0,'e');
 // console.log(array);
@@ -355,10 +355,10 @@
 //
 // const arrayNum = [123, 23457, 151, 1300, 60,
 // 152, 12, 736, 87,
-// 1234, 67, 1];
+// 1234, 67, task-1];
 
 // for (let i = 0; i <arrayNum.length; i++) {
-//     if (arrayNum[i]%2===0){
+//     if (arrayNum[i]%task-2===0){
 //         console.log(arrayNum[i]); }
 // }
 
@@ -389,14 +389,14 @@ const array1 = [1, 2, 3, 7, 11, 12, 4, 5, 141, 52];
 
 // ============
 
-// зробити масив з 10 чисел [2,17,13,6,22,31,45,66,100,-18]та:
-//1. перебрати його циклом while
+// зробити масив з 10 чисел [task-2,17,13,6,22,31,45,66,100,-18]та:
+//task-1. перебрати його циклом while
 
 // let i =0;
 // while (i<array1.length) {
 //   console.log(array1[i]);
 // i++;}
-//2. перебрати його циклом for
+//task-2. перебрати його циклом for
 
 // for (let i = 0; i < array1.length; i++) {
 // console.log(array1[i]);}
@@ -406,18 +406,18 @@ const array1 = [1, 2, 3, 7, 11, 12, 4, 5, 141, 52];
 
 // const arrayNum =
 //     [123, 23457, 151, 1300, 60,
-//     152, 12, 736, 87, 1234, 67, 1];
+//     152, 12, 736, 87, 1234, 67, task-1];
 // let i = 0;
 // while (i < arrayNum.length) {
-//     if (i % 2 === 1) {
+//     if (i % task-2 === task-1) {
 //         console.log(` ${i} індекс  ${arrayNum[i]}`);
 //     } i++;
 // }
 
 // 4. перебрати циклом for та вивести  числа тільки з непарним індексом
-// let arrayNum = [1,4,124,51,521,551,5,145,152,13]
+// let arrayNum = [task-1,4,124,51,521,551,5,145,152,13]
 // for (let j = 0; j <arrayNum.length; j++) {
-//     if (j % 2 === 1) {
+//     if (j % task-2 === task-1) {
 //         console.log(`${j} індекс ${arrayNum[j]}`)
 //     }
 // }
@@ -425,17 +425,17 @@ const array1 = [1, 2, 3, 7, 11, 12, 4, 5, 141, 52];
 // 5. перебрати циклом while та вивести  числа тільки парні  значення
 // const arrayNum =
 //     [123, 23400, 151, 1300, 60,
-//         152, 12, 736, 87, 1234, 67, 1];
+//         152, 12, 736, 87, 1234, 67, task-1];
 // let i = 0;
 //
 // while (i<arrayNum.length){
-//     if (arrayNum[i]%2 === 0) {
+//     if (arrayNum[i]%task-2 === 0) {
 //         console.log('step: ' + arrayNum[i]);
 //     }i++;
 // }
 // 6. перебрати циклом for та вивести  числа тільки парні  значення
 
-// for (let i = 0; i < arrayNum.length; i+=2) {
+// for (let i = 0; i < arrayNum.length; i+=task-2) {
 //     console.log(arrayNum[i]);
 // }
 
@@ -463,26 +463,26 @@ const array1 = [1, 2, 3, 7, 11, 12, 4, 5, 141, 52];
 // - заповнити його 50 непарними числами за допомоги циклу.
 //
 //
-// 1
+// task-1
 // створити пустий масив та :
-//     1. заповнити його 50 парними числами за допомоги циклу.
+//     task-1. заповнити його 50 парними числами за допомоги циклу.
 
 // let emptyArray = [];
 // for (let i = 0; i <= 100 ; i++) {
-//     if (i%2 ===0){
+//     if (i%task-2 ===0){
 //         console.log(i);
 //     }};
-// 2. заповнити його 50 непарними числами за допомоги циклу.
+// task-2. заповнити його 50 непарними числами за допомоги циклу.
 //     let emptyArray = [];
 // for (let i = 0; i < 100 ; i++) {
-//     if (i%2 === 1){
+//     if (i%task-2 === task-1){
 //         console.log(i);
 //     }};
 
 // 3. используя Math.random заполнить массив из ???(сколько хотите)
 // элементов. диапазон рандома 8 до 732.
 // (но сначала пробуйте БЕЗ ДИАПАЗОНА!)
-// 2. вывести на консоль  каждый третий елемент
+// task-2. вывести на консоль  каждый третий елемент
 // 3. вывести на консоль  каждый второй елемент
 // но при условии что его значение является парным.
 
@@ -503,7 +503,7 @@ const array1 = [1, 2, 3, 7, 11, 12, 4, 5, 141, 52];
 // let array = [];
 // for (let i = 0; i < 200; i++) {
 //     array.push(Math.round(Math.random() * (234 - 10) * 10));
-//     if (array[i]%2 ===0) {
+//     if (array[i]%task-2 ===0) {
 //         console.log(array[i]);
 //     }};
 
@@ -524,16 +524,16 @@ const array1 = [1, 2, 3, 7, 11, 12, 4, 5, 141, 52];
 // 5. Вывести каждый елемент массива у которого соседний с
 // права элемент - парный
 
-// let arrSquare = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let arrSquare = [task-1, task-2, 3, 4, 5, 6, 7, 8, 9, 10];
 // for (let i = 0; i < arrSquare.length; i++) {
-//     let a = arrSquare[i + 1];
-//     if (a % 2 === 0)
+//     let a = arrSquare[i + task-1];
+//     if (a % task-2 === 0)
 //         console.log(arrSquare[i]);
 // }
-// let arrSquare = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let arrSquare = [task-1, task-2, 3, 4, 5, 6, 7, 8, 9, 10];
 // for (let i = 0; i < arrSquare.length; i++) {
-//     let a = arrSquare[i + 1];
-//     if (a % 2 === 1)
+//     let a = arrSquare[i + task-1];
+//     if (a % task-2 === task-1)
 //         console.log(arrSquare[i]);
 // }
 
