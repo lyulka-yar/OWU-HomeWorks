@@ -26,7 +26,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a114065-598a-4b91-8c1d-3fcc78926718" name="Default Changelist" comment="changed location" />
+    <list default="true" id="2a114065-598a-4b91-8c1d-3fcc78926718" name="Default Changelist" comment="changed location">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +78,7 @@
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/OWU-HomeWorks/js-basic-lesson-1/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="app.js" working-dir="$PROJECT_DIR$/HTML CSS JS/js cls-hw/js-for-while-arr-obj-lesson-2">
+    <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/HTML CSS JS/js cls-hw/js-for-while-lesson-2/app.js" working-dir="$PROJECT_DIR$/HTML CSS JS/js cls-hw/js-for-while-lesson-2">
       <method v="2" />
     </configuration>
     <list>
@@ -113,7 +115,8 @@
       <workItem from="1604169242398" duration="109000" />
       <workItem from="1604169367814" duration="13132000" />
       <workItem from="1604228205912" duration="2000" />
-      <workItem from="1604272779203" duration="21000" />
+      <workItem from="1604272779203" duration="1655000" />
+      <workItem from="1604351157429" duration="496000" />
     </task>
     <task id="LOCAL-00001" summary="hw-2-2">
       <created>1604145348164</created>
