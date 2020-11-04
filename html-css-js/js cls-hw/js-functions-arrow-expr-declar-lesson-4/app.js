@@ -50,3 +50,8 @@ let first = function (array){
     return array;
 }
 first()
+
+
+
+let array = [1,'jejslhfsjksd'];
+

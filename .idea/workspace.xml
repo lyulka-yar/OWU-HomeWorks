@@ -20,21 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a114065-598a-4b91-8c1d-3fcc78926718" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HTML CSS JS/js cls-hw/js-functions-arrow-expr-declar-lesson-4/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML CSS JS/js cls-hw/js-functions-arrow-expr-declar-lesson-4/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML CSS JS/js cls-hw/js-functions-arrow-expr-declar-lesson-4/task.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML CSS JS/js cls-hw/js-json-dom-lesson-3/task-2/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/js cls-hw/js-JSON DOM-lesson-3/1/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/HTML CSS JS/js cls-hw/js-json-dom-lesson-3/task-1/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/js cls-hw/js-JSON DOM-lesson-3/1/task_3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HTML CSS JS/js cls-hw/js-json-dom-lesson-3/task-1/task_3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/js cls-hw/js-JSON DOM-lesson-3/1/template1.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML CSS JS/js cls-hw/js-json-dom-lesson-3/task-1/template1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/js cls-hw/js-JSON DOM-lesson-3/1/template2.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML CSS JS/js cls-hw/js-json-dom-lesson-3/task-1/template2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/js cls-hw/js-JSON DOM-lesson-3/2/rules.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML CSS JS/js cls-hw/js-json-dom-lesson-3/task-2/rules.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/js cls-hw/js-JSON DOM-lesson-3/2/task3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HTML CSS JS/js cls-hw/js-json-dom-lesson-3/task-2/task3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/js cls-hw/js-JSON DOM-lesson-3/HELPER.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML CSS JS/js cls-hw/js-json-dom-lesson-3/HELPER.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/js cls-hw/js-basic-lesson-1/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/HTML CSS JS/js cls-hw/js-basic-lesson-1/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML CSS JS/js cls-hw/js-for-while-lesson-2/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/HTML CSS JS/js cls-hw/js-for-while-lesson-2/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML CSS JS/js cls-hw/js-functions-arrow-expr-declar-lesson-4/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/HTML CSS JS/js cls-hw/js-functions-arrow-expr-declar-lesson-4/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +33,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jT5Y6HOvnWPMCT7qcL1U2A9VIV" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -55,7 +45,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -70,6 +60,10 @@
     <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/HTML CSS JS/js cls-hw/js-json-dom-lesson-3/task-2/app.js" working-dir="$PROJECT_DIR$/HTML CSS JS/js cls-hw/js-json-dom-lesson-3/task-2">
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.index.html" />
+      <item itemvalue="Node.js.app.js" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Node.js.app.js" />
@@ -90,6 +84,8 @@
       <workItem from="1603826928968" duration="8000" />
       <workItem from="1603826945671" duration="69000" />
       <workItem from="1604406414807" duration="25416000" />
+      <workItem from="1604509054489" duration="794000" />
+      <workItem from="1604509868100" duration="962000" />
     </task>
     <servers />
   </component>
@@ -108,7 +104,16 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/HTML CSS JS/js cls-hw/js-for-while-arr-obj-lesson-2" />
+    </ignored-roots>
+  </component>
   <component name="WindowStateProjectService">
+    <state x="1038" y="363" key="#Notifications" timestamp="1604509059491">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1038" y="363" key="#Notifications/0.0.1920.1080@0.0.1920.1080" timestamp="1604509059491" />
     <state x="975" y="247" width="467" height="439" key="#Web_Browsers" timestamp="1603819069373">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
@@ -193,10 +198,11 @@
     </state>
     <state width="872" height="274" key="GridCell.Tab.3.right/0.0.1600.860@0.0.1600.860" timestamp="1604424806925" />
     <state width="777" height="268" key="GridCell.Tab.3.right/0.27.1600.873@0.27.1600.873" timestamp="1603826307488" />
-    <state x="0" y="78" key="SettingsEditor" timestamp="1604416093119">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="0" y="101" width="998" height="708" key="SettingsEditor" timestamp="1604510793820">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="0" y="78" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1604416093119" />
+    <state x="0" y="101" width="998" height="708" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1604510793820" />
     <state x="30" y="43" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604428633362">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -219,6 +225,6 @@
     <state x="-7" y="0" width="814" height="867" key="dock-window-3/0.0.1600.860@0.0.1600.860" timestamp="1604431805978" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/OWU_HomeWorks$index_html.dat" NAME="index.html Coverage Results" MODIFIED="1604421891759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/OWU_HomeWorks$index_html.dat" NAME="index.html Coverage Results" MODIFIED="1604169308222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
