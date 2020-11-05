@@ -1,6 +1,7 @@
+//------------------------1---------------------------------------------
 // - создать 5 объектов. В каждом объекте не менее 3х полей.
 //     Все объекты разные по набору полей. (Т.е поле name  должно присутствовать
-// только task-1 раз в одном объекте )
+// только 1 раз в одном объекте )
 // let man = {
 //     health: undefined,
 //     hair: null,
@@ -26,73 +27,26 @@
 //     txt: 'exr'
 // }
 // let toy = {
-//     usage: '0-3 ages',
-//     dangerLvl: 4,
-//     electric: null,
-//     material: 'wood'
-// }
-// - создать 5 объектов с полностью разным набором полей.
-//     В каждом объекте должен присутсвовать массив и внутренний объект.
-//     Опишите что угодно, машину, картину, болт... Пример : let man = { name: 'kokos',
-//     skills : ['java','js'] , wife: { name: 'cherry' } };
-// let man = {
-//     health: undefined,
-//     hair: {
-//         type: [task-1, 4, 5, '214aiafi'],
-//         ahf: {
-//             name: 123,
-//             color: {
-//                 aligator: "tipin"
-//             }
-//         }
-//     },
-//     pet: 'dog',
-//     name: 'Valera'
-// }
-// let dog = {
-//     height: `${50} sm`,
-//     age: {
-//         old: 123,
-//         wise: 14141,
-//         olegagaga: 'faohafhkafh'
-//     },
-//     weight: `${5} kg`,
-//     psiho: 'holeric'
-// }
-// let car = {
-//     brand: 'toyota',
-//     year: 1991,
-//     colors: ['grey', 'purple', {gradient: 'blue-gray'},
-//         {kitty: "kapibara"},
-//         ['oleg', 'marat',
-//             {giena: 'kievskaya'}]],
-//     hoursePower: 276,
-// }
-// let chikenn = {
-//     flavor: 'taysty',
-//     origin: 'dorf',
-//     pesticides: {
-//         valera: 'priyshov tviy chas',
-//         hello: 114141,
-//         olerg: ['fahahk']
+//         usage: '0-3 ages',
+//         dangerLvl: 4,
+//         electric: null,
+//         material: 'wood'
 //     }
-// }
-// let toy = {
-//     usage: '0-3 ages',
-//     dangerLvl: 4,
-//     electric: {jello: 'null', trte: 2141, sara: ['adada', 1231]},
-//     material: 'wood'
+//------------------------2---------------------------------------------
+//     создать 5 объектов с полностью разным набором полей.
+// В каждом объекте должен присутсвовать массив и внутренний объект.
+// Опишите что угодно, машину, картину, болт...Пример: let man = {
+//     name: 'kokos',
+//     skills: ['java', 'js'],
+//     wife: { name: 'cherry' }
 // };
 
+//------------------------3---------------------------------------------
 
-//task-1 - При помощи for in вывести все ключи всех объектов из задания task-1 и task-2
-//
-// - При помощи Object.keys вывести все ключи всех объектов из задания task-1 и task-2
-//     - При помощи for in вывести все ключи всех объектов из задания task-1 и task-2
-//
-// - При помощи Object.keys вывести все ключи всех объектов из задания task-1 и task-2
+//При помощи for in вывести все ключи всех объектов из задания task-1 и task-2
 
-// let array = [toy, chikenn, car, dog, man]; // task-1 and task-2 TASKS
+
+// let array = [toy, chikenn, car, dog, man];
 //
 // task-1 task
 // for (const arrayElement in array) {
@@ -102,18 +56,177 @@
 //     }
 // };
 
-//task-2 task
-// for (const arrayElem in array) {
-//     console.log(arrayElem)
-//     for (const arrayElemKey in array[arrayElem]) {
-//         console.log(arrayElemKey);
-//     }
-// }
-//3 task
+//------------------------4---------------------------------------------
 
-// for (const arrayKey in array) {
-//     console.log(Object(array[arrayKey]));
+// - При помощи Object.keys вывести все ключи всех объектов из задания task-1 и task-2
+
+// console.log(Object.keys(array));
+
+//------------------------5---------------------------------------------
+
+// - Создать массив из 10 объектов cars и заполнить его машинами с полями модель,
+// год выпуска, мощность, цвет. (Значаения полей могу быть выдуманными)
+
+// let arrCars = [tesla = {
+//     model: 'S',
+//     color: 'grey',
+//     power: `${800} hourse power`,
+//     yearOfCr: 2012
+// }, ford = {
+//     model: 'tesla',
+//     color: 'yellow',
+//     power: `${300} hourse power`,
+//     yearOfCr: 1964
+// }, bmw = {
+//     model: 'm3',
+//     color: 'brown',
+//     power: `${480} hourse power`,
+//     yearOfCr: 1998
+// }, car4 = {
+//     model: 'wolksvagen',
+//     color: 'red',
+//     power: `${230} hourse power`,
+//     yearOfCr: 2003
+// }]
+// console.log(arrCars);
+
+//------------------------6---------------------------------------------
+
+// Создать массив объектов cities и заполнить его объектами с полями название,
+// популяция, страна, регион.(Значаения полей могу быть выдуманными)
+
+// let cities = [
+//     city1 = {
+//         name: 'kharkiv',
+//         population: 'very bad',
+//         country: 'ukraine',
+//         region: 'pupivka'
+//     },
+//     city2 = {
+//         name: 'paris',
+//         population: 'not bad',
+//         country: 'france',
+//         region: 'baragit'
+//     },
+//     city3 = {
+//         name: 'zimbabve',
+//         population: 'very very bad',
+//         country: 'aragauga',
+//         region: 'zlafjg'
+//     },
+//     city4 = {
+//         name: 'odessa',
+//         population: 'normal',
+//         country: 'ukraine',
+//         region: 'pahlave4na'
+//     }
+// ]
+// console.log(cities);
+
+//------------------------7---------------------------------------------
+
+// Создать массив объектов cars и заполнить его машинами с полями модель,
+// год выпуска, мощность, цвет, водитель.
+//
+let arrCarsDrivers = [tesla = {
+    model: 'S',
+    color: 'grey',
+    power: `${800} hourse power`,
+    yearOfCr: 2012,
+    driver: {
+        name: 'Petro',
+        expirience: `${4} years`,
+        age: 34,
+        male: 'man'
+    }
+}, ford = {
+    model: 'scorpio',
+    color: 'yellow',
+    power: `${300} hourse power`,
+    yearOfCr: 1964,
+    driver: {
+        name: 'Vasya',
+        expirience: `${20} years`,
+        age: 46,
+        male: 'man'
+    }
+}, bmw = {
+    model: 'm3',
+    color: 'brown',
+    power: `${480} hourse power`,
+    yearOfCr: 1998,
+    driver: {
+        name: 'Oleh',
+        expirience: `${10} years`,
+        age: 30,
+        male: 'man'
+    }
+}, wolksvagen = {
+    model: 'golf-4',
+    color: 'red',
+    power: `${230} hourse power`,
+    yearOfCr: 2003,
+    driver: {
+        name: 'Liza',
+        expirience: `${2} years`,
+        age: 25,
+        male: 'woman',
+        friends: undefined,
+        husband: null
+    }
+}];
+// console.log(arrCarsDrivers);
+
+// - проитерировать каждый массив из задания 5,6,7 при помощи while.
+
+// i = 0;
+// let driversCount = '';
+// while (i < arrCarsDrivers.length) {
+//      driversCount = arrCarsDrivers[i];
+//     i++;
+//     console.log(driversCount);
 // }
+//
+// - проитерировать каждый массив из задания 5,6,7 при помощи for .
+
+// for (let j = 0; j < arrCarsDrivers.length; j++) {
+//     const driversCountElement = arrCarsDrivers[j];
+//     console.log(driversCountElement)
+// }
+//
+// - проитерировать каждый массив из задания 5,6,7 при помощи  for of.
+
+// for (const arrCarsDriver of arrCarsDrivers) {
+//     let driversAll = arrCarsDriver;
+//     console.log(driversAll);
+// }
+
+// - взять объекты из задания 1 и превратить каждый в json.
+// let strJson = JSON.stringify(arrCarsDrivers)
+// let rightObj = JSON.parse(strJson);
+// console.log(strJson);
+// console.log(rightObj);
+
+    // - взять json из задания 11 и превратить их обратно в объекты.
+
+// newRigthobj = JSON.parse(strJson);
+// console.log(strJson);
+// console.log(newRigthobj);
+
+// взять массив из задания 5,в цикле перебрать его объекты превратив их в json\
+
+// for (const arrCarsDriver of arrCarsDrivers) {
+//     let greaterJson = JSON.stringify(arrCarsDriver);
+//
+//     console.log(greaterJson);
+// }
+
+// - взять массив из задания 7,в цикле перебрать его объекты превратив их в json и сразу
+// скоприовать в новый массив.
+
+for (const arrCarsDriver of arrCarsDrivers) {
+    let finished = (arrCarsDrivers)
+}
 
 // - За допомогою 2х циклів циклів проітеррувати  даний масив і масив кожного об'єкта.
 
@@ -221,20 +334,25 @@
 //     Скріпт повинен працювати навіть якщо кількість блоків з заголовком та параграфом зміниться.
 
 
-// const titleAll = document.getElementsByTagName('h2');
-// const contentblock = document.getElementById('content');
-// for (const blockId of contentblock) {
-
-}
-// console.log(titleAll);
+// const wrapContent = document.getElementById('content');
+// const  allRules = document.getElementsByClassName("rules");
+//
+// for (const classRules of allRules) {
+//     const titleAll = document.getElementsByTagName('h2');
+//     // console.log(classRules);
+//  for (const innerContentUl of  wrapContent) {
+//      document.createElement('ul');
+//      innerContentUl.innerText('titleAll');
+//  }
+//
+// }
 
 
 //
 // -Є масив котрий характеризує правила. Створити скрипт який ітерує цей масив, та
-// робить з кожне правило в окремому блоці.
-//     При цому в блоці, номер правила записати в свій блок, текст правила записати в
-// свій окремий блок.
-//     Результатом відпрацювання скріпта повинна бути структура яка міститься в блоці
+// робить кожне правило в окремому блоці.
+//При цому в блоці, номер правила записати в свій блок, текст правила записати в свій окремий блок.
+//Результатом відпрацювання скріпта повинна бути структура яка міститься в блоці
 // wrap файла rule.html
 
 // let rules = [
