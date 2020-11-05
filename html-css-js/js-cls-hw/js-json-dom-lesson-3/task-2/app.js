@@ -224,8 +224,17 @@ let arrCarsDrivers = [tesla = {
 // - взять массив из задания 7,в цикле перебрать его объекты превратив их в json и сразу
 // скоприовать в новый массив.
 
-for (const arrCarsDriver of arrCarsDrivers) {
-    let finished = (arrCarsDrivers)
+const wrapContent = document.getElementById('content');
+const  allRules = document.getElementsByClassName("rules");
+
+for (const classRules of allRules) {
+    const titleAll = document.getElementsByTagName('h2');
+    // console.log(classRules);
+ for (const innerContentUl of  wrapContent) {
+     document.createElement('ul');
+     innerContentUl.innerText('titleAll');
+ }
+
 }
 
 // - За допомогою 2х циклів циклів проітеррувати  даний масив і масив кожного об'єкта.
