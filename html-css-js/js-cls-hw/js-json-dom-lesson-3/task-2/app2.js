@@ -502,23 +502,222 @@
 //
 // // - за допомоги document.createElement та appendChild створити таблицю на 1 рядок з трьома ячейками всередені
 //
-const tableElement = document.createElement('table');
-document.body.appendChild(tableElement);
+// const tableElement = document.createElement('table');
+// document.body.appendChild(tableElement);
 // tableElement.innerHTML = `${'<tr>'} <td>hello</td> <td>i am</td> <td>table with 3 col</td> ${'</tr>'}`;
 // tableElement.style.border='1px dashed red';
 //
 // - за допомоги document.createElement, appendChild та циклу створити таблицю на 10 рядків
 // з трьома ячейками всередені
 
-for (let i = 10; i > tableElement.length; i--) {
-    for (const tableElementKey in tableElement) {
-        let m = prompt('number of colls');
-        let n = prompt('number of rows');tableElement.innerHTML =
-            `${'<tr>'} ${'</tr>'}*${3}`;
+// const table = document.createElement('table');
+// const tableData = +prompt('number of colls?');
+// const tableRow = +prompt('number of rows?');
+//
+// for (let i = 1; i <= tableRow; i++) {
+//     const trEl = document.createElement("tr");
+//     trEl.innerText = `${i}`;
+//     trEl.style.border = '1px dashed red';
+//     for (let j = 1; j < tableData; j++) {
+//         const tdEl = document.createElement('td');
+//         tdEl.innerText = `${j}`;
+//         trEl.appendChild(tdEl);
+//         tdEl.style.border = '1px dashed red';
+//     }
+//     table.appendChild(trEl);
+// }
+// document.body.appendChild(table);
+// table.style.border = '1px solid blue'
 
 
-    }
-}
+// const table = document.createElement("table");
+// for (let i = 1; i <= 5; i++) {
+//     const tableRow = document.createElement('tr');
+//     tableRow.innerText=`${i}`;
+//     table.appendChild(tableRow);
+//     tableRow.style.border='1px solid green'
+//     for (let j = 1; j <= 10; j++) {
+//         const tableData = document.createElement('td');
+//         tableData.innerText=`${j}`;
+//         tableRow.appendChild(tableData);
+//         tableData.style.border='1px dashed red'
+//     }
+// }
+// document.body.appendChild(table);
+// table.style.border='2px solid black';
+// //
+
+//
+// --Завантажити з мережі будь-який шаблон сайту. Підключити до нього свій скріпт-файл. У файлі прописати наступні доступи та дії
+// - знайти всі елементі, які мають class
+// - знайти всі параграфи ,та змінити текст на hello oktenweb!
+//     - знайти всі div та змінити ім колір на червоний
+
+// <div class="rules rule8">
+//     <h2>Восьмое и последнее правило Бойцовского клуба.</h2>
+//     <p>Новичок обязан принять бой.</p>
+// </div>
+// const p = document.getElementsByTagName('p');
+// const div = document.getElementsByTagName('div');
+// const rulesClass = document.getElementsByClassName('rules');
+//
+// for (const pElement of p){
+//     pElement.innerText='hello oktenweb!';
+// }
+//
+// for (const divElement of div) {
+//     divElement.style.backgroundColor='red';
+// }
+//============
+//====class===
+//============
+// - є сторінка rules.html.
+//     Контентом сторінки є заголовки та параграфи.
+// Заголовки (h2) характеризують тему контенту яка
+// вказана в параграфі.
+// створити скрипт, котрий зчитує всі заголовки,
+// та робить в блоці з id=content з них список(ul>li),
+// який буде змістом того, що знаходиться на сторінці.
+// Скріпт повинен працювати навіть якщо
+// кількість блоків з заголовком   та параграфом
+// зміниться.
+
+// const h2 = document.getElementsByTagName('h2');
+// const content = document.getElementById('content');
+// const ul = document.createElement('ul');
+// for (const h2Element of h2) {
+//     const li = document.createElement('li');
+//     li.innerText = h2Element.innerText;
+//     ul.appendChild(li);
+// }
+// content.appendChild(ul);
+// document.body.appendChild(content);
+// ul.style.color='red';
+
+// -Є масив котрий характеризує правила.
+// Створити скрипт який ітерує цей масив, та робить з
+// кожне правило в окремому блоці.
+// При цому в блоці, номер правила записати в
+// свій блок, текст правила записати в свій
+// окремий блок.
+// Результатом відпрацювання скріпта повинна
+// бути структура яка міститься в блоці wrap
+// файла rule.html
+
+// let rules = [
+//     {
+//         title: 'Первое правило Бойцовского клуба.',
+//         body: 'Никому не рассказывать о Бойцовском клубе.'
+//     },
+//     {
+//         title: 'Второе правило Бойцовского клуба.',
+//         body: 'Никогда никому не рассказывать о Бойцовском клубе.'
+//     },
+//     {
+//         title: 'Третье правило Бойцовского клуба.',
+//         body: 'В схватке участвуют только двое.'
+//     },
+//     {
+//         title: 'Четвертое правило Бойцовского клуба.',
+//         body: 'Не более одного поединка за один раз.'
+//     },
+//     {
+//         title: 'Пятое правило Бойцовского клуба.',
+//         body: 'Бойцы сражаются без обуви и голые по пояс.'
+//     },
+//     {
+//         title: 'Шестое правило Бойцовского клуба.',
+//         body: 'Поединок продолжается столько, сколько потребуется.'
+//     },
+//     {
+//         title: 'Седьмое правило Бойцовского клуба.',
+//         body: 'Если противник потерял сознание или делает вид, что потерял, или говорит «Хватит» — поединок окончен.'
+//     },
+//     {
+//         title: 'Восьмое и последнее правило Бойцовского клуба.',
+//         body: 'Новичок обязан принять бой.'
+//     },
+//
+// ];
+
+// <div class="rules rule7">
+//     <h2>Седьмое правило Бойцовского клуба.</h2>
+//     <p>Если противник потерял сознание или делает вид, что потерял, или говорит «Хватит» — поединок
+//         окончен.</p>
+// </div>
+
+// const wrap = document.createElement('div');
+// wrap.id = 'wrap';
+//
+//     for (let i = 0; i < rules.length; i++) {
+//         const rule = rules[i];
+//         const div = document.createElement('div');
+//         const p = document.createElement('p');
+//         const h2 = document.createElement('h2');
+//         div.className = `rules rule${[i+1]}`
+//         h2.innerText = rule.title;
+//         p.innerText = rule.body;
+//         div.appendChild(h2);
+//         div.appendChild(p);
+//         wrap.appendChild(div);
+//     }
+//  document.body.appendChild(wrap)
+
+// const wrap = document.createElement('div');
+// wrap.id = 'wrap';
+//
+// for (let i = 0; i < rules.length; i++) {
+//     const rule = rules[i];
+//     const h2 = document.createElement('h2');
+//     const div = document.createElement('div');
+//     const p = document.createElement('p');
+//     div.className = `rules rule_${i + 1}`;
+//     h2.innerText = rule.title;
+//     p.innerText = rule.body;
+//     wrap.appendChild(div);
+//     div.appendChild(h2);
+//     div.appendChild(p);
+// }
+//
+// document.body.appendChild(wrap);
+//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
