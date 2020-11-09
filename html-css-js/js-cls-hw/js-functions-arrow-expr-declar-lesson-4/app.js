@@ -48,3 +48,46 @@
 
 // - створити функцію яка виводить масив
 //
+// function f (array) {
+//     console.log(array);
+//     // for (const arrayElement of array) {
+//     // console.log(arrayElement);
+//     // }
+// }
+// f(array);
+
+// - створити функцію яка заповнює масив
+// рандомними числами та виводить його.
+//  let arrRand =[];
+//  function rand () {
+//      for (let i = 0; i <10; i++) {
+//          let a = Math.floor(Math.random()*(150-15)+15);
+//          arrRand.push(a);
+//      }
+//  }
+// rand ();
+// console.log(arrRand)
+// Для виведення використати попвередню функцію.
+// - створити функцію яка приймає три числа та виводить
+// та повертає найменьше.
+// - створити функцію яка приймає три числа та виводить
+// та повертає найбільше.
+// - створити функцію яка приймає будь-яку кількість чисел,
+//     повертає найменьше, а виводить найбільше
+
+let a = prompt('type 1st number');
+let b = prompt('type 2d number');
+let c = prompt('type 3d number');
+
+ function min (a,b,c) {
+    if (a<b&&a<c){
+        console.log(a)
+    } else if (b<a&&b<c){
+        console.log(b)
+    } else if (c<a&&c<b) {
+        console.log(c)
+    }
+     return result;
+ }
+min (a,b,c);
+
