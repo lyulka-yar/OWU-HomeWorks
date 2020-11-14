@@ -226,19 +226,18 @@
 // - створити функцію  яка скаладає значення елементів з
 // однаковими індексами та повертає новий результуючий масив.
 //
-// let firstArr = [1,8,4,2,5,123];
-// let secondArr = [12,38,54,12,45,5123];
-// const compareAndSum = (arr1,arr2) => {
-// let arrNew=[];
+// let firstArr = [1, 8, 4, 2, 5, 123];
+// let secondArr = [12, 38, 54, 12, 45, 5123];
+// const compareAndSum = (arr1, arr2) => {
+//     let arrNew = [];
 //     for (let i = 0; i < arr1.length; i++) {
-//         arrNew.push(arr1[i]+arr2[i])
+//         arrNew.push(arr1[i] + arr2[i])
 //     }
 //     return arrNew;
 // }
-// const result = compareAndSum(firstArr,secondArr)
+// const result = compareAndSum(firstArr, secondArr)
 // console.log(result)
 
-//
 // - *** приймає масив та число "i", та міняє місцями об`єкт який знаходиться в
 //  індексі "i" на "i+1"
 // let arr = [124, 21, 523, 124, 24, 4512, 124, 1, 541, 55, 7, 56];
@@ -313,62 +312,233 @@
 // - приймає масив автомобілів (можна взяти з попередніх дз ),
 // та  індентифікатор елемнту в який потрібно додати список цих автомобілів.
 //
-let carArrDr = [
-    bmw = {
-        model: 'm3',
-        year: 2003,
-        color: 'grey',
-        horsePower: 300,
-        driver: {
-            name: 'Erica',
-            expirience: `${4} years`,
-            age: 24
-        }
-    },
-    tesla = {
-        model: 'S',
-        year: 2012,
-        color: 'dark-grey',
-        horsePower: 800,
-        driver: {
-            name: 'Bovadwq',
-            expirience: `${41} years`,
-            age: 64
-        }
-    },
-    reno = {
-        model: 'm3',
-        year: 2007,
-        color: 'green',
-        horsePower: 200,
-        driver: {
-            name: 'Bibo',
-            expirience: `${6} years`,
-            age: 34
-        }
-    },
-    fiat = {
-        model: 'doblo 4',
-        year: 2000,
-        color: 'white',
-        horsePower: 95
-    },
-    wolksvagen = {
-        model: 'golf 4',
-        year: 2013,
-        color: 'dark blue',
-        horsePower: 102,
-        driver: {
-            name: 'Patrik',
-            expirience: `${6} years`,
-            age: 44
-        }
-    },
-];
+// let carArrDr = [
+//     bmw = {
+//         model: 'm3',
+//         year: 2003,
+//         color: 'grey',
+//         horsePower: 300,
+//         driver: {
+//             name: 'Erica',
+//             expirience: `${4} years`,
+//             age: 24
+//         }
+//     },
+//     tesla = {
+//         model: 'S',
+//         year: 2012,
+//         color: 'dark-grey',
+//         horsePower: 800,
+//         driver: {
+//             name: 'Bovadwq',
+//             expirience: `${41} years`,
+//             age: 64
+//         }
+//     },
+//     reno = {
+//         model: 'm3',
+//         year: 2007,
+//         color: 'green',
+//         horsePower: 200,
+//         driver: {
+//             name: 'Bibo',
+//             expirience: `${6} years`,
+//             age: 34
+//         }
+//     },
+//     fiat = {
+//         model: 'doblo 4',
+//         year: 2000,
+//         color: 'white',
+//         horsePower: 95
+//     },
+//     wolksvagen = {
+//         model: 'golf 4',
+//         year: 2013,
+//         color: 'dark blue',
+//         horsePower: 102,
+//         driver: {
+//             name: 'Patrik',
+//             expirience: `${6} years`,
+//             age: 44
+//         }
+//     },
+// ];
+//
+// const cars = (cars) => {
+//
+//     const ul = document.createElement('ul');
+//         ul.id = 'wrap';
+//     for (let i = 0; i < cars.length; i++) {
+//         const li = document.createElement('li');
+//
+//         li.innerHTML = `${cars[i].model} ${cars[i].color} ${cars[i].horsePower}`;
+//         ul.appendChild(li);
+//        if (cars[i].driver) {
+//           li.innerHTML=`${cars[i].model} ${cars[i].color} ${cars[i].horsePower}` + ` ${cars[i].driver.name}`;
+//        }
+//     }
+//
+//     document.body.appendChild(ul);
+// }
+// cars(carArrDr);
 
-const cars = (cars,id) => {
+// let usersWithId = [{id: 1, name: 'vasya', age: 31, status: false},
+//     {id: 2, name: 'petya', age: 30, status: true}, {
+//         id: 3, name: 'kolya',
+//         age: 29, status: true
+//     }, {id: 4, name: 'olya', age: 28, status: false},];
+// let citiesWithId = [{user_id: 3, country: 'USA', city: 'Portland'},
+//     {user_id: 1, country: 'Ukraine', city: 'Ternopil'}, {
+//         user_id: 2,
+//         country: 'Poland', city: 'Krakow'
+//     }, {user_id: 4, country: 'USA', city: 'Miami'},];
+//
+// const b = (users, cities) => {
+//     let userCityId = [];
+//
+//     for (const usersId of users) {
+//         for (const cityId of cities) {
+//             if (usersId.id === cityId.user_id) {
+//                 userCityId.push(Object.assign(usersId, cityId));
+//             }
+//         }
+//     }
+//     return userCityId;
+// }
+// const b1 = b(usersWithId, citiesWithId);
+// console.log(b1)
 
-}
+// ***- беремо завдання з правилами з укроку №3 :
+// Та робимо це функцією.При цьому правила отримувати через аргумент.
+// "Є масив котрий характеризує правила. Створити скрипт який ітерує цей масив,
+// та робить з кожне правило в окремому блоці.
+// При цому в блоці, номер правила записати в свій блок,
+// текст правила записати в свій окремий блок.
+//     Результатом відпрацювання скріпта повинна бути структура
+//     яка міститься в блоці wrap файла rule.html
+
+let rules = [
+    {
+        title: 'Первое правило Бойцовского клуба.',
+        body: 'Никому не рассказывать о Бойцовском клубе.'
+    },
+    {
+        title: 'Второе правило Бойцовского клуба.',
+        body: 'Никогда никому не рассказывать о Бойцовском клубе.'
+    },
+    {
+        title: 'Третье правило Бойцовского клуба.',
+        body: 'В схватке участвуют только двое.'
+    },
+    {
+        title: 'Четвертое правило Бойцовского клуба.',
+        body: 'Не более одного поединка за один раз.'
+    },
+    {
+        title: 'Пятое правило Бойцовского клуба.',
+        body: 'Бойцы сражаются без обуви и голые по пояс.'
+    },
+    {
+        title: 'Шестое правило Бойцовского клуба.',
+        body: 'Поединок продолжается столько, сколько потребуется.'
+    },
+    {
+        title: 'Седьмое правило Бойцовского клуба.',
+        body: 'Если противник потерял сознание или делает вид, что потерял, или говорит «Хватит» — поединок окончен.'
+    },
+    {
+        title: 'Восьмое и последнее правило Бойцовского клуба.',
+        body: 'Новичок обязан принять бой.'
+    }];
+
+
+//1. Cоздать функцию которая принимает в себя заголовок и текс
+//2. получить блок контент с body? создать цикл и проитерировать  масив
+// с правилами и занестих их в отдельный блок  с номером правила
+// тоже в отдельном блоке
+//3.
+//// <div class="rules rule1">-->
+// //   <h2>Первое правило Бойцовского клуба.</h2>
+// //   <p>Никому не рассказывать о Бойцовском клубе.</p>
+// //</div>
+// //
+// const createStructure = () => {
+//     const wrap = document.getElementById('content');
+//     for (let i =0; i<rules.length; i++) {
+//         const div = document.createElement('div');
+//         const h2 = document.createElement('h2');
+//         const p = document.createElement('p');
+//         const span = document.createElement('span');
+//         const rule = rules[i];
+//
+//         div.className=(`rules`);
+//         span.innerText= `${[i+1]}`;
+//         h2.innerText = rule.title;
+//         p.innerText = rule.body;
+//
+//         div.appendChild(span);
+//         div.appendChild(h2);
+//         div.appendChild(p);
+//
+//     wrap.appendChild(div);
+//     }
+//     return div;
+// }
+// createStructure();
+
+
+// ===========додаткове від Віктора========
+
+// let req = []
+
+// 3) Flat
+// Вирівняти багаторівневий масив в однорівневий
+// const arr = [1,3, ['Hello', 'Wordd', [9,6,1]], ['oops'], 9];
+//
+//     [1,3, ['Hello, 'Wordd', [9,6,1]], ['oops'], 9] ->
+//     [1, 3, 'Hello, 'Wordd', 9, 6, 1, 'oops', 9]
+//
+// const arrDepth = arr.flat(10);
+// console.log(arrDepth)
+
+// 1) Точная степень двійки.
+//     Дано натуральное число N.
+//     Виведіть слово YES, якщо число N являєтся точною степенюю двійки,
+//     або слово NO в поганому випадку.
+//     Операцією піднесення в степінь користуватись не можна!
+//
+// let n = 0;
+// n = prompt('type a number');
+// while (n >= 2) {
+//     n = n / 2;
+//     if (1 === n) {
+//         console.log("YES")
+//     }   console.log("NO");
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
