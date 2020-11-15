@@ -129,103 +129,103 @@
 // -- changeYear (newValue) - змінює рік випуску на значення newValue
 // -- addDriver (driver) - приймає об'єкт який "водій" з довільним набором полів, і доавляет його в поточний об'єкт car
 //
-// function CarsManufactures(model, plan, year, maxSpeed, engCapacity) {
-//     this.model = model;
-//     this.plan = plan;
-//     this.year = year;
-//     this.maxSpeed = maxSpeed;
-//     this.engCapacity = engCapacity;
-//     this.drive = function (newSpeed) {
-//         console.log(`їдемо зі швидкістю ${this.maxSpeed} на годину`)
-//     }
-//     this.info = function () {
-//         console.log(`
-//         model:${this.model}
-//         manufacturer: ${this.plan}
-//         year: ${this.year}
-//         type of drive: ${this.engCapacity}`)
-//     }
-//     this.increaseMaxSpeed = function (newSpeed) {
-//         this.maxSpeed = newSpeed;
+function CarsManufactures(model, plan, year, maxSpeed, engCapacity) {
+    this.model = model;
+    this.plan = plan;
+    this.year = year;
+    this.maxSpeed = maxSpeed;
+    this.engCapacity = engCapacity;
+    this.drive = function () {
+        console.log(`їдемо зі швидкістю ${this.maxSpeed} на годину`)
+    }
+    this.info = function () {
+        console.log(`
+        model:${this.model}
+        manufacturer: ${this.plan}
+        year: ${this.year}
+        type of drive: ${this.engCapacity}`)
+    }
+    this.increaseMaxSpeed = function (newSpeed) {
+        this.maxSpeed = newSpeed;
+
+    }
+    this.changeYear = function (newYear) {
+        this.year = newYear;
+
+    }
+    this.adDriver = function (drivers) {
+        this.driver = drivers;
+        if (this.driver) {
+            console.log(`
+        model:${this.model}
+        manufacturer: ${this.plan}
+        year: ${this.year}
+        type of drive: ${this.engCapacity}
+        drivers Name: ${this.driver.name}
+        drivers Age: ${this.driver.age}
+        drivers experience: ${this.driver.expr}`)
+        } else {
+            console.log(`
+        model:${this.model}
+        manufacturer: ${this.plan}
+        year: ${this.year}
+        type of drive: ${this.engCapacity}`)
+        }
+    }
+}
+let drivers = {
+    driver_1: {
+        name: 'Piter Parker',
+        age: 43,
+        expr: 10
+    },
+    driver_2:{
+        name:'Alisa Milanor',
+        age: 23,
+        expr: 2
+    }
+}
+let tesla = new CarsManufactures(
+    'Y',
+    'Tesla',
+    2017,
+    270,
+    'electrical drive');
+let bmw = new CarsManufactures(
+    'm3',
+    'BMW',
+    2020,
+    230,
+    'Enginge with insides burnings');
 //
-//     }
-//     this.changeYear = function (newYear) {
-//         this.year = newYear;
+console.group('Function Constructor')
+console.log('---------------------------------')
+tesla.drive();
+bmw.drive();
+console.log('---------------------------------')
+
+tesla.increaseMaxSpeed(Math.floor(Math.random() * (180 - 35) + 35));
+bmw.increaseMaxSpeed(Math.floor(Math.random() * (100 - 55) + 55));
+console.log('---------------------------------')
 //
-//     }
-//     this.adDriver = function (drivers) {
-//         this.driver = drivers;
-//         if (this.driver) {
-//             console.log(`
-//         model:${this.model}
-//         manufacturer: ${this.plan}
-//         year: ${this.year}
-//         type of drive: ${this.engCapacity}
-//         drivers Name: ${this.driver.name}
-//         drivers Age: ${this.driver.age}
-//         drivers experience: ${this.driver.expr}`)
-//         } else {
-//             console.log(`
-//         model:${this.model}
-//         manufacturer: ${this.plan}
-//         year: ${this.year}
-//         type of drive: ${this.engCapacity}`)
-//         }
-//     }
-// }
-// let drivers = {
-//     driver_1: {
-//         name: 'Piter Parker',
-//         age: 43,
-//         expr: 10
-//     },
-//     driver_2:{
-//         name:'Alisa Milanor',
-//         age: 23,
-//         expr: 2
-//     }
-// }
-// let tesla = new CarsManufactures(
-//     'Y',
-//     'Tesla',
-//     2017,
-//     270,
-//     'electrical drive');
-// let bmw = new CarsManufactures(
-//     'm3',
-//     'BMW',
-//     2020,
-//     230,
-//     'Enginge with insides burnings');
+bmw.info();
+tesla.info();
+console.log('---------------------------------')
 //
-// console.group('Function Constructor')
-// console.log('---------------------------------')
-// tesla.drive();
-// bmw.drive();
-// console.log('---------------------------------')
-//
-// tesla.increaseMaxSpeed(Math.floor(Math.random() * (180 - 35) + 35));
-// bmw.increaseMaxSpeed(Math.floor(Math.random() * (100 - 55) + 55));
-// console.log('---------------------------------')
-//
-// bmw.info();
-// tesla.info();
-// console.log('---------------------------------')
-//
-// tesla.changeYear(Math.floor(Math.random() * (2045 - 25) + 25));
-// bmw.changeYear(Math.floor(Math.random() * (2045 - 25) + 25));
-// console.log('---------------------------------')
-//
-// tesla.adDriver(drivers.driver_1);
-// bmw.adDriver(drivers.driver_2);
-// console.log('---------------------------------')
-//
-// tesla.color = 'purple';
-// bmw.ABS = true;
-// console.log(tesla);
-// console.log(bmw);
-// console.log('---------------------------------')
-// console.groupEnd();
+tesla.changeYear(Math.floor(Math.random() * (2045 - 25) + 25));
+bmw.changeYear(Math.floor(Math.random() * (2045 - 25) + 25));
+console.log('---------------------------------')
+
+tesla.adDriver(drivers.driver_1);
+bmw.adDriver(drivers.driver_2);
+console.log('---------------------------------')
+
+tesla.color = 'purple';
+bmw.ABS = true;
+console.log(tesla);
+console.log(bmw);
+console.log('---------------------------------')
+console.groupEnd();
 
 //     - Створити класс який дозволяє створювати об'єкти car, з властивостями модель, виробник, рік випуску, максимальна швидкість, об'єм двигуна. додати в об'єкт функції:
 // -- drive () - яка виводить в консоль "їдемо зі швидкістю {максимальна швидкість} на годину"
@@ -240,44 +240,9 @@
 //         this.year = year;
 //         this.maxSpeed = maxSpeed;
 //         this.engCapacity = engCapacity;
-//         this.drive = function (newSpeed) {
-//             console.log(`їдемо зі швидкістю ${this.maxSpeed} на годину`)
-//         }
-//         this.info = function () {
-//             console.log(`
-//         model:${this.model}
-//         manufacturer: ${this.plan}
-//         year: ${this.year}
-//         type of drive: ${this.engCapacity}`)
-//         }
-//         this.increaseMaxSpeed = function (newSpeed) {
-//             this.maxSpeed = newSpeed;
 //
-//         }
-//         this.changeYear = function (newYear) {
-//             this.year = newYear;
-//
-//         }
-//         this.adDriver = function (drivers) {
-//             this.driver = drivers;
-//             if (this.driver) {
-//                 console.log(`
-//         model:${this.model}
-//         manufacturer: ${this.plan}
-//         year: ${this.year}
-//         type of drive: ${this.engCapacity}
-//         drivers Name: ${this.driver.name}
-//         drivers Age: ${this.driver.age}
-//         drivers experience: ${this.driver.expr}`)
-//             } else {
-//                 console.log(`
-//         model:${this.model}
-//         manufacturer: ${this.plan}
-//         year: ${this.year}
-//         type of drive: ${this.engCapacity}`)
-//             }
-//         }
 //     }
+//
 // }
 // let tesla = new Cars(
 //     'Y',
