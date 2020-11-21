@@ -9,55 +9,73 @@
 </head>
 <body>
 <style>
-    /*.green {*/
-    /*    background-color: green;*/
-    /*    width: 150px;*/
-    /*    height: 300px;*/
+    .green {
+        background-color: green;
+        width: 150px;
+        height: 300px;
+    }
+
+    #btn-green {
+        margin-left: 121px;
+        margin-top: -3px;
+        cursor: pointer;
+    }
+    /** {*/
+    /*    box-sizing: border-box;*/
     /*}*/
+    /*    table {*/
+    /*        background-color: #8ec2e6;*/
+    /*        border: 2px solid #000000;*/
+    /*        border-radius: 10px;*/
 
-    /*#btn-green {*/
-    /*    margin-left: 121px;*/
-    /*    margin-top: -3px;*/
-    /*    cursor: pointer;*/
-    /*}*/
-/** {*/
-/*    box-sizing: border-box;*/
-/*}*/
-/*    table {*/
-/*        background-color: #8ec2e6;*/
-/*        border: 2px solid #000000;*/
-/*        border-radius: 10px;*/
+    /*    }*/
 
-/*    }*/
+    /*    tr {*/
+    /*        border-radius: 10px;*/
+    /*        border: 1px dashed #333333;*/
+    /*        padding: 5px 5px;*/
+    /*        display: block;*/
 
-/*    tr {*/
-/*        border-radius: 10px;*/
-/*        border: 1px dashed #333333;*/
-/*        padding: 5px 5px;*/
-/*        display: block;*/
+    /*    }*/
 
-/*    }*/
+    /*    td {*/
+    /*        border-radius: 2px;*/
+    /*        border: 1px dashed #333333;*/
+    /*        padding: 2px calc(160px/2);*/
+    /*    }*/
+    /*    td:hover {*/
+    /*      background-color: cyan;*/
+    /*        box-shadow: cyan -2px -3px 3px;*/
 
-/*    td {*/
-/*        border-radius: 2px;*/
-/*        border: 1px dashed #333333;*/
-/*        padding: 2px calc(160px/2);*/
-/*    }*/
-/*    td:hover {*/
-/*      background-color: cyan;*/
-/*        box-shadow: cyan -2px -3px 3px;*/
+    /*    }*/
 
-/*    }*/
-#item_1,#item_2,#item_3 {
-    display: flex;
-    background-color: cyan;
-}
-    #wrap {
+    /*checkbox*/
+    /* #content {*/
+
+    /*     align-items: center;*/
+    /*     margin: 0 auto;*/
+    /* }*/
+    #content {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    #wrapCards {
+        margin: 15px 15px;
         display: flex;
+        flex-wrap: wrap;
 
     }
-    h2,p {
-        margin: 5px;
+
+      .card {
+          margin: 10px 10px;
+        background-color: #8ec2e6;
+        padding: 0 25px;
+        border-radius: 15px;
+        border: 2px solid #b30c1d;
+    }
+    input {
+        margin: 15px;
+        text-align: center;
     }
 
 </style>
@@ -107,16 +125,15 @@
 <!--    <input type="txt" name="text" id="txtId">-->
 <!--    <input type="button" name="btn" id="btn" value="send">-->
 
+
+
 <!--</div>-->
 
-<!--<form action="" id="form">-->
-<!--    <span>Фільтрація по статусу</span>-->
-<!--    <input type="checkbox" name="checkbox" id="in1" onchange="funIn1()">-->
-<!--    <span>Фільтрація по рокам</span>-->
-<!--    <input type="checkbox" name="checkbox" id="in2" onchange="funIn2()">-->
-<!--    <span>Фільтрація по містам</span>-->
-<!--    <input type="checkbox" name="checkbox" id="in3" onchange="funIn3()">-->
-<!--</form>-->
+
+<div id="content">
+
+</div>
+
 
 <!--<input type="checkbox" id="in1" onchange="funIn1()">-->
 <!--Люди зі статутсом false-->
@@ -126,6 +143,46 @@
 <!--<br>-->
 <!--<input type="checkbox" id="in3" onchange="funIn3()">-->
 <!--Хто живе у Львові?-->
+
+
+
+
+<div id="wrap">
+    <div class="rules rule1">
+        <h2>Первое правило Бойцовского клуба.</h2>
+        <p>Никому не рассказывать о Бойцовском клубе.</p>
+    </div>
+    <div class="rules rule2">
+        <h2>Второе правило Бойцовского клуба.</h2>
+        <p>Никогда никому не рассказывать о Бойцовском клубе.</p>
+    </div>
+    <div class="rules rule3">
+        <h2>Третье правило Бойцовского клуба.</h2>
+        <p>В схватке участвуют только двое.</p>
+    </div>
+    <div class="rules rule4">
+        <h2>Четвертое правило Бойцовского клуба.</h2>
+        <p>Не более одного поединка за один раз.</p>
+    </div>
+
+    <div class="rules rule5">
+        <h2>Пятое правило Бойцовского клуба.</h2>
+        <p>Бойцы сражаются без обуви и голые по пояс.</p>
+    </div>
+    <div class="rules rule6">
+        <h2>Шестое правило Бойцовского клуба.</h2>
+        <p>Поединок продолжается столько, сколько потребуется.</p>
+    </div>
+    <div class="rules rule7">
+        <h2>Седьмое правило Бойцовского клуба.</h2>
+        <p>Если противник потерял сознание или делает вид, что потерял, или говорит «Хватит» — поединок
+            окончен.</p>
+    </div>
+    <div class="rules rule8">
+        <h2>Восьмое и последнее правило Бойцовского клуба.</h2>
+        <p>Новичок обязан принять бой.</p>
+    </div>
+</div>
 <script src="main.js"></script>
 </body>
 </html>
