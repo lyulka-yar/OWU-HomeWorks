@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<style>
+
+    fieldset {
+        width: 850px;
+    }
+
+    #field {
+        width: 758px;
+        height: 150px;
+        margin: 5px;
+    }
+
+</style>
+
+<fieldset>
+    <legend> Форма</legend>
+
+    <form action="#" id="formID" name="forma" oninput="saveFormInfo(this)">  <!---oninput="saveFormInfo(this)"--->
+
+        <input type="text" id="name" placeholder="name">
+        <input type="text" id="surname" placeholder="surname">
+
+        <input type="radio" id="radio1" name="alco" value="false"><span>безалкогольне</span>
+        <input type="radio" id="radio2" name="alco" value="false"><span>алкоголнье</span>
+
+        <select name="роки" id="years">
+
+            <option>Пиво</option>
+            <option>Горілка</option>
+            <option>Чай</option>
+            <option>Рис</option>
+            <option>Сакэ</option>
+
+        </select>
+
+        <input type="checkbox" id="check1" value="false"><span>світле</span>
+        <input type="checkbox" id="check2" value="false"><span>темне</span>
+
+        <textarea name="text" id="field" cols="30" rows="10"></textarea>
+
+    </form>
+
+</fieldset>
+
+
+<script src="app.js"></script>
+
+</body>
+</html>
