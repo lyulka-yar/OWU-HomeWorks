@@ -30,68 +30,127 @@
 // const txt2 = document.getElementById('surname');
 // const select = document.getElementById('years');
 //
-const form = document.getElementById('formID');
+// const form = document.getElementById('formID');
+//
+// getFormDataInfo(form);
+//
+// function saveFormInfo(t) {
+//     setFormData(t);
+// }
+//
+// function setFormData(tag) { // ФОРМА
+//
+//     for (let i = 0; i < tag.length; i++) {
+//         const tagElement = tag[i];
+//
+//         if (tagElement.type === 'checkbox' || tagElement.type === 'radio')
+//             tagElement.checked
+//                 ? tagElement.value = true
+//                 : tagElement.value = false
+//
+//         localStorage.setItem(tagElement.id, tagElement.value);
+//     }
+// }
+//
+// function getFormDataInfo(tag) {
+//
+//     for (let i = 0; i < tag.children.length; i++) {
+//
+//         if (localStorage.hasOwnProperty(tag.children[i].id)) {
+//             tag.children[i].value = localStorage.getItem(tag.children[i].id);
+//
+//             if (tag.children[i].value === 'true') {
+//                 tag.children[i].setAttribute('checked', 'checked');
+//             }
+//         }
+//
+//     }
+// }
 
-getFormDataInfo(form);
-
-function saveFormInfo(t) {
-    setFormData(t);
-}
-
-function setFormData(tag) {
-
-    for (let i = 0; i < tag.length; i++) {
-        const tagElement = tag[i];
-
-        if (tagElement.type === 'checkbox' || tagElement.type === 'radio')
-            tagElement.checked
-                ? tagElement.value = true
-                : tagElement.value = false
-
-        localStorage.setItem(tagElement.id, tagElement.value);
+// Вариант №2
+const forms = document.forms.forma;
+const obj = JSON.parse(localStorage.getItem('form'));
+for (let key in obj) {
+    if (obj.hasOwnProperty(key)){
+        obj[key].value = obj[key].name;
     }
+
 }
+forms.onchange = () => {
+    const obj = {};
 
-function getFormDataInfo(tag) {
-
-    for (let i = 0; i < tag.length; i++) {
-
-        if (localStorage.hasOwnProperty(tag.children[i].id)) {
-            tag.children[i].value = localStorage.getItem(tag.children[i].id);
-
-            if (tag.children[i].value === 'true') {
-                tag.children[i].setAttribute('checked', 'checked');
+    for (let item of forms) {
+        if (item.name === 'radio' || item.name === 'checkbox') {
+            if (item.checked) {
+                obj[item.name] = item.value;
             }
+        } else {
+            obj[item.name] = item.value;
         }
     }
-}
-
-// let forma = document.querySelector('#fromID');
-
-// const forms = document.forms.forma;
-// const obj = JSON.parse(localStorage.getItem('form'));
-// for (let key in obj) {
-//     forms[key].value = obj[key]
-// }
-// forms.onchange = () => {
-//     const obj = {}
-//     for (let item in forms) {
-//         if (item.name === 'radio') {
-//             if (item.checked) {
-//                 obj[item.name] = item.value
-//             }
-//         } else {
-//             obj[item.name] = item.value
-//         }
-//     }
-//
-//     localStorage.setItem('form', JSON.stringify(obj))
-// }
+    localStorage.setItem('form', JSON.stringify(obj));
+};
 
 // -Дан текстареа. В него можно ввести данные, нажать кнопку "сохранить" и они "фикисруются"
 // (в хранилище), затем поредактировать их, затем еще поредактировать и возможно еще.....
 // Требование : хранить историю своих изменений (даже после перезагрузки страницы).
 // Сверху над текстареа должны появится стрелочки, с помощью которых можно перемещаться
 // по истории (не забудьте!чекпоинт истории - нажатеи кнопки сохранить).
+//
+// const form = document.getElementById('field');
+// const left = document.getElementById('left');
+// const right = document.getElementById('right');
+// const save = document.getElementById('save');
+//
+// save.onclick = () => {
+//     localStorage.setItem(localStorage.length+1,form.value);
+// };
+//
+// left.onclick = () => {
+//     right.style.visibility = 'visible';
+//    let index;
+//     for (const key in localStorage) {
+//         if (localStorage.hasOwnProperty(key)){
+//             if (localStorage.getItem(key) === form.value) {
+//                 index = key;
+//             }
+//         }
+//     }
+//
+//     if (index === '1') {
+//         left.style.visibility = 'hidden';
+//         return;
+//     }
+//     form.value = localStorage.getItem(index - 1);
+// };
+//
+// right.onclick = () => {
+//     left.style.visibility = 'visible';
+//     let index;
+//     for (const key in localStorage) {
+//         if (localStorage.hasOwnProperty(key)){
+//             if (localStorage.getItem(key) === form.value) {
+//                 index = key;
+//             }
+//         }
+//     }
+//
+//     if (index === localStorage.length.toString()) {
+//         right.style.visibility = 'hidden';
+//         return;
+//     }
+//     form.value = localStorage.getItem(+index + 1);
+// };
+
+
+
+
+
+
+
+
+
+
+
 
 
