@@ -20,47 +20,149 @@
     /*    margin: 5px;*/
     /*}*/
 
+    /*task 4*/
+    input {
+        background-color: #3d83d9;
+        width: 250px;
+        margin: 4px;
+        text-align: center;
+        color: white;
+        border: none;
+        padding: 10px;
+    }
+
+    #submit {
+        background-color: #031269;
+        border: 1px solid yellow;
+        border-radius: 5px;
+        padding: 6px 0;
+        text-transform: uppercase;
+        margin-top: 15px;
+    }
+
+    #submit:hover {
+        background-color: #1ea414;
+        cursor: pointer;
+    }
+
+    fieldset {
+        width: 250px;
+        margin: 0 auto;
+    }
+
+    body {
+
+        min-width: 1000px;
+        margin: 10% auto;
+    }
+    #content {
+        display: flex;
+        justify-content: space-around;
+        min-width: 900px;
+        flex-wrap: wrap;
+    }
+
+    /*task 4*/
+
 </style>
+<!--1-->
+<!--2-->
+<!--<fieldset>-->
+<!--    <legend> Форма</legend>-->
 
-<fieldset>
-    <legend> Форма</legend>
+<!--    <form action="#" id="formID" name="forma"  >  &lt;!&ndash;-oninput="saveFormInfo(this)"-&ndash;&gt;-->
 
-    <form action="#" id="formID" name="forma"  >  <!---oninput="saveFormInfo(this)"--->
+<!--        <input type="text" id="name" placeholder="name">-->
+<!--        <input type="text" id="surname" placeholder="surname">-->
 
-        <input type="text" id="name" placeholder="name">
-        <input type="text" id="surname" placeholder="surname">
-
-        <input type="radio" id="radio1" name="alco" value="false"><span>безалкогольне</span>
-        <input type="radio" id="radio2" name="alco" value="false"><span>алкоголнье</span>
-
-
-        <select name="роки" id="meal">
-
-            <option>Пиво</option>
-            <option>Горілка</option>
-            <option>Чай</option>
-            <option>Рис</option>
-            <option>Сакэ</option>
-
-        </select>
-
-        <input type="checkbox" id="check1" value="false"><span>світле</span>
-        <input type="checkbox" id="check2" value="false"><span>темне</span>
-        <textarea name="text" id="field" cols="30" rows="10"></textarea>
-
-    </form>
-</fieldset>
+<!--        <input type="radio" id="radio1" name="alco" value="false"><span>безалкогольне</span>-->
+<!--        <input type="radio" id="radio2" name="alco" value="false"><span>алкоголнье</span>-->
 
 
-<!--<input type="button" value="prev" id="left">-->
-<!--<input type="button" value="SAVE" id="save">-->
-<!--<input type="button" value="next" id="right">-->
+<!--        <select name="роки" id="meal">-->
+
+<!--            <option>Пиво</option>-->
+<!--            <option>Горілка</option>-->
+<!--            <option>Чай</option>-->
+<!--            <option>Рис</option>-->
+<!--            <option>Сакэ</option>-->
+
+<!--        </select>-->
+
+<!--        <input type="checkbox" id="check1" value="false"><span>світле</span>-->
+<!--        <input type="checkbox" id="check2" value="false"><span>темне</span>-->
+<!--        <textarea name="text" id="field" cols="30" rows="10"></textarea>-->
 
 <!--    </form>-->
-
 <!--</fieldset>-->
 
 
+<!--3-->
+<!--<fieldset>-->
+<!--  <textarea name="text" id="field" cols="30" rows="10"></textarea>-->
+<!--<input type="button" value="prev" id="left">-->
+<!--<input type="button" value="SAVE" id="save">-->
+<!--<input type="button" value="next" id="right">-->
+<!--</fieldset>-->
+
+
+<!--4-->
+
+<fieldset>
+
+    <legend>Notebook vol_2.0</legend>
+
+    <form action="#"
+          id="formID"
+          name="forma">
+
+        <label>Full Name</label>
+        <input type="text"
+               id="name"
+               name="fullName"
+               placeholder="example: Ivanov Ivan Ivanovich">
+
+        <label>Phone number</label>
+        <input type="tel"
+               id="phone"
+               name="phone"
+               placeholder="example: +380991325467">
+
+        <label>Email address</label>
+        <input type="email"
+               name="mail"
+               id="mail"
+               placeholder="example: ivanov@mail.com">
+
+        <label>Your company</label>
+        <input type="text"
+               name="company"
+               id="job"
+               placeholder="example: Big money">
+
+        <label>Your department</label>
+        <input type="text"
+               name="department"
+               id="section"
+               placeholder="example: main">
+
+        <label>Your`s birthdate</label>
+        <input type="date"
+               name="birthday"
+               id="dateOfBorn"
+               placeholder="your birthday">
+
+        <input type="button"
+               value="submit"
+               name="submit"
+                id="submit"
+               style= "width: 100%; margin-top: 5px; ">
+    </form>
+
+
+</fieldset>
+
+<div id="content"></div>
 <script src="app.js"></script>
 
 </body>
